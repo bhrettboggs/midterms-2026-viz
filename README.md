@@ -2,12 +2,17 @@
 
 Unusual views of the November 3, 2026 U.S. midterm elections, built from public data:
 
-| # | Visual | Question | Status |
-|---|--------|----------|--------|
-| 1 | **What the market expected** | How did prediction-market odds for House and Senate control move over 15 months, and where did they end up relative to the result? | data ready |
-| 2 | **Where the Senate money went** | Where did Senate campaign money come from, where did it go, and how much outside money flowed around the campaigns? | data ready |
-| 3 | **Money per vote** | How much was spent around each Senate race for every vote cast? | data ready |
-| 4 | **Counties as circles sized by votes** | Which way did each county move since 2024, sized by how many people actually voted? | data ready |
+| Visual | Finding |
+|--------|---------|
+| [What the market expected](viz/market_expectations/senate_seats_heatmap.png) | Polymarket's top pick for Republican Senate seats from March onward was the range the result landed in, but it stayed under 50% until Election Day. |
+| [Where the Senate money went](viz/senate_money_flow/money_flow.png) | Democratic Senate campaigns raised 2.3× more than Republican ones; outside groups spent almost evenly ($748M vs $760M). |
+| [Money per vote](viz/money_per_vote/money_per_vote.png) | Races decided by under 7 points drew a median $78 per vote, against $7 in races decided by 15+. |
+| [Counties as circles sized by votes](viz/vote_circles/vote_circles.png) | 95% of counties moved toward Democrats compared with the 2024 presidential vote (different offices, so candidate effects are included). |
+
+![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
+![Where the Senate money went](viz/senate_money_flow/money_flow.png)
+![Money per vote](viz/money_per_vote/money_per_vote.png)
+![Counties as circles sized by votes](viz/vote_circles/vote_circles.png)
 
 ## Repo layout
 
@@ -18,13 +23,18 @@ pipeline/      cleaning scripts; run_all.py runs everything
 viz/           one folder per visual
 ```
 
-## Rebuild the clean data
+## Rebuild everything
 
 ```bash
 pip install -r requirements.txt
-cd pipeline
-python run_all.py
+cd pipeline && python run_all.py && cd ..
+python viz/market_expectations/senate_seats_heatmap.py
+python viz/senate_money_flow/money_flow.py
+python viz/money_per_vote/money_per_vote.py
+python viz/vote_circles/vote_circles.py
 ```
+
+The charts use the Inter font. If it isn't installed, matplotlib falls back to its default font.
 
 `run_all.py` writes every table in `data/clean/` and a `CHECKS.md` report: match rates, rows dropped and why, and cross-checks between sources.
 
