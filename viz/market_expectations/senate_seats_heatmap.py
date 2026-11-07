@@ -3,8 +3,8 @@
 Reads  data/clean/pm_senate_seats.csv  (daily probability per seat range, sums to 1)
 Writes viz/market_expectations/senate_seats_heatmap.png  (1200 x 1500, LinkedIn portrait)
 
-Top panel: one row per seat range, one column per day, darker = more likely.
-Bottom panel: the chance the market gave the range the result landed in.
+Top panel: monthly average probability per seat range, printed in each cell.
+Bottom panel: the daily chance the market gave the range the result landed in.
 """
 from pathlib import Path
 
@@ -36,83 +36,100 @@ plt.rcParams.update({
 })
 
 
+ROWS = [  # (label, columns summed) - 54+ merged: each of those counts sat near 0% all year
+    ("54 or more", ["54", "55", "56", "57+"]), ("53", ["53"]), ("52", ["52"]), ("51", ["51"]),
+    ("50", ["50"]), ("49", ["49"]), ("48", ["48"]), ("47 or fewer", ["≤47"]),
+]
+
+
 def main() -> None:
     s = pd.read_csv(CLEAN / "pm_senate_seats.csv", parse_dates=["date"], index_col="date")
-    # The first two weeks are the market opening at near-flat placeholder prices.
+    # Drop the market's first two weeks: near-flat placeholder prices at launch.
     s = s.loc["2026-01-01":]
     p_result = s[RESULT_RANGE]
-    # Heatmap shows a 7-day average to calm thin-market noise; the line and the dates use raw daily prices.
-    smooth = s.rolling(7, min_periods=1).mean()
     led_since = (s.idxmax(axis=1) != RESULT_RANGE)[::-1].idxmax() + pd.Timedelta(days=1)
     over_half = s.index[p_result > 0.5].min()
 
+    # Monthly averages, one row per seat range (top = most Republican seats).
+    grouped = pd.DataFrame({label: s[cols].sum(axis=1) for label, cols in ROWS})
+    monthly = grouped.resample("MS").mean()
+    col_labels = [f"{d:%b}" for d in monthly.index]
+    col_labels[-1] = f"Nov\n1–{s.index[-1].day}"
+    grid = monthly.T.values  # rows x months
+
     fig = plt.figure(figsize=(12, 15), dpi=100)
-    gs = fig.add_gridspec(2, 2, height_ratios=[3.1, 1], width_ratios=[40, 1],
-                          left=0.14, right=0.9, top=0.80, bottom=0.10, hspace=0.18, wspace=0.03)
-    ax = fig.add_subplot(gs[0, 0])
-    cax = fig.add_subplot(gs[0, 1])
-    ax2 = fig.add_subplot(gs[1, 0], sharex=ax)
+    gs = fig.add_gridspec(2, 1, height_ratios=[2.6, 1], left=0.16, right=0.86, top=0.80, bottom=0.10, hspace=0.22)
+    ax = fig.add_subplot(gs[0])
+    ax2 = fig.add_subplot(gs[1])
 
-    # --- heatmap -----------------------------------------------------------------
+    # --- monthly grid ---------------------------------------------------------------
     cmap = LinearSegmentedColormap.from_list("seq_blue", BLUE)
-    x = mdates.date2num(s.index.to_pydatetime())
-    edges_x = list(x - 0.5) + [x[-1] + 0.5]
-    rows = list(s.columns)  # ≤47 ... 57+, bottom to top
-    mesh = ax.pcolormesh(edges_x, range(len(rows) + 1), smooth.T.values, cmap=cmap, vmin=0, vmax=0.6,
-                         shading="flat", rasterized=True)
-    ax.set_yticks([i + 0.5 for i in range(len(rows))])
-    ax.set_yticklabels(["47 or fewer" if r == "≤47" else ("57 or more" if r == "57+" else r) for r in rows])
-    ax.set_ylabel("Republican Senate seats", labelpad=12)
+    nrow, ncol = grid.shape
+    ax.imshow(grid, cmap=cmap, vmin=0, vmax=0.6, aspect="auto")
+    for i in range(nrow):
+        for j in range(ncol):
+            v = grid[i, j]
+            ax.text(j, i, f"{v:.0%}" if v >= 0.005 else "<1%", ha="center", va="center", fontsize=15,
+                    color=SURFACE if v >= 0.33 else (INK if v >= 0.08 else MUTED),
+                    weight="semibold" if i == nrow - 1 else "normal")
+    # White gaps between cells.
+    for i in range(nrow + 1):
+        ax.axhline(i - 0.5, color=SURFACE, lw=3)
+    for j in range(ncol + 1):
+        ax.axvline(j - 0.5, color=SURFACE, lw=3)
+    ax.set_xticks(range(ncol))
+    ax.set_xticklabels(col_labels, fontsize=15)
+    ax.xaxis.tick_top()
+    ax.set_yticks(range(nrow))
+    ax.set_yticklabels([label for label, _ in ROWS], fontsize=15)
     ax.tick_params(length=0)
-    for side in ("top", "right", "left", "bottom"):
-        ax.spines[side].set_visible(False)
-    # 50 seats: the line between majority and minority (VP breaks a 50-50 tie).
-    y50 = rows.index("50") + 1
-    ax.axhline(y50, color=SURFACE, lw=2)
-    ax.text(x[3], y50 + 0.12, "51+ = Republican majority", color=SURFACE, fontsize=13, va="bottom", weight="medium")
-    # Outline the row the result landed in.
-    ax.add_patch(plt.Rectangle((edges_x[0], 0.04), edges_x[-1] - edges_x[0], 0.92, fill=False,
-                               ec=ACCENT, lw=2.5, zorder=3))
+    for side in ax.spines.values():
+        side.set_visible(False)
+    ax.set_ylabel("Republican Senate seats", labelpad=14, fontsize=15)
+    # Majority line between 50 and 51.
+    y_major = [label for label, _ in ROWS].index("51") + 0.5
+    ax.axhline(y_major, color=INK, lw=2)
+    ax.text(ncol - 0.35, y_major, "↑ 51+ seats:\nRepublican\nmajority", ha="left", va="center",
+            fontsize=12.5, color=INK, linespacing=1.3)
+    # Outline the result row.
+    ax.add_patch(plt.Rectangle((-0.5, nrow - 1.5), ncol, 1, fill=False, ec=ACCENT, lw=3, zorder=4))
+    ax.text(-0.5, nrow - 0.38, "↑ where the result landed", ha="left", va="top", fontsize=12.5,
+            color=ACCENT, weight="semibold", transform=ax.transData)
 
-    cb = fig.colorbar(mesh, cax=cax, ticks=[0, 0.2, 0.4, 0.6])
-    cb.ax.set_yticklabels(["0%", "20%", "40%", "60%+"])
-    cb.outline.set_visible(False)
-    cb.ax.tick_params(length=0, labelsize=13)
-    cb.set_label("Market probability", color=INK_2, labelpad=10)
-
-    # --- probability of the eventual answer ---------------------------------------
+    # --- daily chance of the eventual answer ----------------------------------------
     ax2.fill_between(s.index, p_result, color="#cde2fb", lw=0)
-    ax2.plot(s.index, p_result, color=ACCENT, lw=2)
+    ax2.plot(s.index, p_result, color=ACCENT, lw=2.5)
     ax2.axhline(0.5, color=MUTED, lw=1, ls=(0, (4, 3)))
-    ax2.text(s.index[3], 0.52, "50%", color=INK_2, fontsize=13, va="bottom")
+    ax2.text(s.index[2], 0.52, "50%", color=INK_2, fontsize=13, va="bottom")
     ax2.set_ylim(0, 1)
-    ax2.set_yticks([0, 0.25, 0.5, 0.75, 1])
-    ax2.set_yticklabels(["0%", "", "50%", "", "100%"])
+    ax2.set_yticks([0, 0.5, 1])
+    ax2.set_yticklabels(["0%", "50%", "100%"])
     ax2.grid(axis="y", color=GRID, lw=1)
     ax2.set_axisbelow(True)
     for side in ("top", "right", "left"):
         ax2.spines[side].set_visible(False)
-    ax2.tick_params(length=0)
-    ax2.set_ylabel("Chance of 47\nor fewer", labelpad=12)
+    ax2.tick_params(length=0, labelsize=14)
+    ax2.set_title("Daily chance the market gave “47 or fewer”", loc="left", fontsize=16, weight="semibold", pad=12)
     last = s.index[-1]
-    ax2.annotate(f"{p_result.iloc[-1]:.0%} on\n{last:%b %-d}", (last, p_result.iloc[-1]), xytext=(-16, -6),
-                 textcoords="offset points", ha="right", va="top", fontsize=13, color=INK, weight="medium")
+    ax2.annotate(f"{p_result.iloc[-1]:.0%} on {last:%b %-d}", (last, p_result.iloc[-1]), xytext=(-12, 0),
+                 textcoords="offset points", ha="right", va="center", fontsize=13.5, color=INK, weight="semibold")
     ax2.axvline(led_since, color=MUTED, lw=1)
-    ax2.annotate(f"Became the single most likely\noutcome on {led_since:%b %-d}", (led_since, 0.9),
-                 xytext=(8, 0), textcoords="offset points", fontsize=13, color=INK_2, va="top")
+    ax2.annotate(f"Became the market's top pick\non {led_since:%b %-d}", (led_since, 0.92),
+                 xytext=(8, 0), textcoords="offset points", fontsize=13.5, color=INK_2, va="top")
     ax2.xaxis.set_major_locator(mdates.MonthLocator())
     ax2.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
-    plt.setp(ax.get_xticklabels(), visible=False)
 
-    # --- titles and footer --------------------------------------------------------
-    fig.text(0.04, 0.955, "The eventual result led the market from March —", fontsize=30, weight="bold")
-    fig.text(0.04, 0.925, "but didn't give it even odds until Election Day", fontsize=30, weight="bold")
-    fig.text(0.04, 0.885, "Polymarket's daily probability for each Republican Senate seat count after the 2026\n"
-                          "midterms (7-day average). The outlined row is where the result landed.", fontsize=16, color=INK_2,
-             va="top", linespacing=1.4)
-    fig.text(0.04, 0.045, RESULT_NOTE + f". 47 or fewer first topped 50% on {over_half:%b %-d}.",
+    # --- titles and footer ----------------------------------------------------------
+    fig.text(0.04, 0.955, "The market's top pick from March was right —", fontsize=30, weight="bold")
+    fig.text(0.04, 0.925, "but it stayed under 50% until Election Day", fontsize=30, weight="bold")
+    fig.text(0.04, 0.89, "Polymarket's average monthly probability for how many Senate seats Republicans would hold\n"
+                         "after the 2026 midterms. Darker = more likely.", fontsize=16, color=INK_2, va="top",
+             linespacing=1.4)
+    fig.text(0.04, 0.058, RESULT_NOTE + f". “47 or fewer” first topped 50% on {over_half:%b %-d}.",
              fontsize=12.5, color=INK_2)
-    fig.text(0.04, 0.025, "Data: Polymarket public API (daily prices, rescaled to sum to 100%); race calls via civicAPI. "
+    fig.text(0.04, 0.040, "Note: “47 or fewer” is open-ended, so it covers more outcomes than the single-seat rows.",
+             fontsize=12.5, color=INK_2)
+    fig.text(0.04, 0.020, "Data: Polymarket public API (daily prices, rescaled to sum to 100%); race calls via civicAPI. "
                           "Chart: Bhrett Boggs", fontsize=12.5, color=MUTED)
 
     out = HERE / "senate_seats_heatmap.png"
