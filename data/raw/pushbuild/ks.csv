@@ -1,0 +1,198 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+KS,state,,State Treasurer,Steven Johnson,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Kansas_State_Treasurer_election,,2026-11-07T04:32:41+00:00
+KS,state,,State Treasurer,Juan Luengo,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Kansas_State_Treasurer_election,,2026-11-07T04:32:41+00:00
+KS,state,,State Treasurer,Eric Lund,Libertarian,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Kansas_State_Treasurer_election,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,ALTA TOWNSHIP CLERK,Dustin Roberts,REP,91,97.8495,93,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,ALTA TOWNSHIP CLERK,Write-in,NP,2,2.1505,93,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,ATTORNEY GENERAL,Kris Kobach,REP,7351,53.893,13640,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,ATTORNEY GENERAL,Chris Mann,DEM,6269,45.9604,13640,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,ATTORNEY GENERAL,Write-in,NP,20,0.1466,13640,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,BURRTON TOWNSHIP CLERK,Ted E. Jones,REP,282,95.5932,295,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,BURRTON TOWNSHIP CLERK,Write-in,NP,13,4.4068,295,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COMMISSIONER OF INSURANCE,Daniel Hawkins,REP,7242,53.5809,13516,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COMMISSIONER OF INSURANCE,Dinah Sykes,DEM,5751,42.5496,13516,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COMMISSIONER OF INSURANCE,Ric Koehn,LIBERT,513,3.7955,13516,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COMMISSIONER OF INSURANCE,Write-in,NP,10,0.074,13516,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,CONSTITUTIONAL AMENDMENT 1,Yes,NP,8378,62.3178,13444,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,CONSTITUTIONAL AMENDMENT 1,No,NP,5066,37.6822,13444,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COUNTY COMMISSIONER-1st DIST,Becky Reimer,REP,2561,56.3724,4543,14,14,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COUNTY COMMISSIONER-1st DIST,Myron G. Chaffee,DEM,1975,43.4735,4543,14,14,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,COUNTY COMMISSIONER-1st DIST,Write-in,NP,7,0.1541,4543,14,14,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p13,Yes,NP,7909,69.2314,11424,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p13,No,NP,3515,30.7686,11424,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p2,Yes,NP,8157,70.7336,11532,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p2,No,NP,3375,29.2664,11532,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p3,Yes,NP,8150,71.0054,11478,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p3,No,NP,3328,28.9946,11478,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p5,Yes,NP,9251,78.2193,11827,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p5,No,NP,2576,21.7807,11827,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p7,Yes,NP,8138,71.2734,11418,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Court of Appeals-p7,No,NP,3280,28.7266,11418,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,DARLINGTON TOWNSHIP CLERK,Brian Wolfe,REP,239,97.551,245,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,DARLINGTON TOWNSHIP CLERK,Write-in,NP,6,2.449,245,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,District Court-92,Yes,NP,9482,78.7411,12042,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,District Court-92,No,NP,2560,21.2589,12042,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,EMMA TOWNSHIP CLERK,Nathan Simmons,REP,227,97.0085,234,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,EMMA TOWNSHIP CLERK,Write-in,NP,7,2.9915,234,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,GARDEN TOWNSHIP CLERK,Paul Strausz,REP,141,100,141,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,GARDEN TOWNSHIP CLERK,Write-in,NP,0,0,141,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,GOVERNOR/LT GOVERNOR,Ty Masterson / Jeffrey Klemp,REP,7347,53.6552,13693,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,GOVERNOR/LT GOVERNOR,Cindy Holscher / KC Ohaebosim,DEM,6306,46.0527,13693,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,GOVERNOR/LT GOVERNOR,Write-in,NP,40,0.2921,13693,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,HALSTEAD TOWNSHIP CLERK,Larry Denno,REP,117,97.5,120,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,HALSTEAD TOWNSHIP CLERK,Write-in,NP,3,2.5,120,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,HIGHLAND TOWNSHIP CLERK,Douglas Unruh,REP,159,95.7831,166,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,HIGHLAND TOWNSHIP CLERK,Write-in,NP,7,4.2169,166,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,LAKE TOWNSHIP CLERK,Ty Miller,REP,59,98.3333,60,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,LAKE TOWNSHIP CLERK,Write-in,NP,1,1.6667,60,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,LAKIN TOWNSHIP CLERK,Angela John,REP,99,98.0198,101,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,LAKIN TOWNSHIP CLERK,Write-in,NP,2,1.9802,101,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,MACON TOWNSHIP CLERK,Mike Weber,REP,158,68.1034,232,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,MACON TOWNSHIP CLERK,Donald Haury,DEM,71,30.6034,232,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,MACON TOWNSHIP CLERK,Write-in,NP,3,1.2931,232,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,NEWTON TOWNSHIP CLERK,Melinda Matson,REP,690,95.1724,725,4,4,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,NEWTON TOWNSHIP CLERK,Write-in,NP,35,4.8276,725,4,4,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,PLEASANT TOWNSHIP CLERK,Edward Jannusch,REP,216,98.1818,220,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,PLEASANT TOWNSHIP CLERK,Write-in,NP,4,1.8182,220,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,RICHLAND TOWNSHIP CLERK,Greg Claassen,REP,201,98.0488,205,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,RICHLAND TOWNSHIP CLERK,Write-in,NP,4,1.9512,205,1,1,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SECRETARY OF STATE,Pat Proctor,REP,7193,53.1437,13535,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SECRETARY OF STATE,Jennifer Day,DEM,5689,42.0318,13535,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SECRETARY OF STATE,Scott E. Morgan,UNKAN,644,4.758,13535,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SECRETARY OF STATE,Write-in,NP,9,0.0665,13535,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SEDGWICK TOWNSHIP CLERK,Scott Church,REP,561,97.0588,578,3,3,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,SEDGWICK TOWNSHIP CLERK,Write-in,NP,17,2.9412,578,3,3,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE BOE 7TH DISTRICT,Alana McWilliams,REP,7508,55.6272,13497,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE BOE 7TH DISTRICT,Ann Zimmerman,DEM,5973,44.2543,13497,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE BOE 7TH DISTRICT,Write-in,NP,16,0.1185,13497,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE  74TH DIST,Mike King,REP,3200,60.8018,5263,19,19,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE  74TH DIST,Michele L. Ediger,DEM,2059,39.1222,5263,19,19,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE  74TH DIST,Write-in,NP,4,0.076,5263,19,19,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE 72ND DIST,Avery Anderson,REP,4317,51.6758,8354,22,22,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE 72ND DIST,Matthew L Smith,DEM,4002,47.9052,8354,22,22,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE REPRESENTATIVE 72ND DIST,Write-in,NP,35,0.419,8354,22,22,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE TREASURER,Steven Johnson,REP,7613,56.305,13521,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE TREASURER,Juan C. Luengo,DEM,5362,39.6568,13521,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE TREASURER,Eric Lund,LIBERT,538,3.979,13521,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,STATE TREASURER,Write-in,NP,8,0.0592,13521,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Supreme Court-p4,Yes,NP,7705,63.5307,12128,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Supreme Court-p4,No,NP,4423,36.4693,12128,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Supreme Court-p6,Yes,NP,7598,63.2061,12021,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,Supreme Court-p6,No,NP,4423,36.7939,12021,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,UNITED STATES SENATOR,Roger Marshall,REP,6950,50.5602,13746,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,UNITED STATES SENATOR,Adam Hamilton,DEM,6413,46.6536,13746,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,UNITED STATES SENATOR,David C. Graham,LIBERT,374,2.7208,13746,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,UNITED STATES SENATOR,Write-in,NP,9,0.0655,13746,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,US REPRESENTATIVE  4TH DISTRICT,Ron Estes,REP,7640,55.7298,13709,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,US REPRESENTATIVE  4TH DISTRICT,Katy Tyndell,DEM,5762,42.0308,13709,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,US REPRESENTATIVE  4TH DISTRICT,Drew Cranmer,LIBERT,298,2.1738,13709,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,US REPRESENTATIVE  4TH DISTRICT,Write-in,NP,9,0.0657,13709,41,41,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,WALTON TOWNSHIP CLERK,Michael Ray Southern,DEM,161,90.9605,177,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Harvey,WALTON TOWNSHIP CLERK,Write-in,NP,16,9.0395,177,2,2,Harvey County Clarity ENR,https://results.enr.clarityelections.com/KS/Harvey/127360/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Constitutional Amendment Question,Yes,,9989,73.158,13654,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Constitutional Amendment Question,No,,3665,26.842,13654,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 1st District,Jacob Vickrey,,2305,92.3478,2496,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 1st District,Write-in,,191,7.6522,2496,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 4th District,Jaime Raney,,2336,95.7377,2440,8,8,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 4th District,Write-in,,104,4.2623,2440,8,8,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 5th District,Keith E Diediker,,2827,93.4854,3024,17,17,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,County Commissioner 5th District,Write-in,,197,6.5146,3024,17,17,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 13,Yes,,7271,58.505,12428,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 13,No,,5157,41.495,12428,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 2,Yes,,7519,59.9697,12538,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 2,No,,5019,40.0303,12538,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 3,Yes,,7533,60.3412,12484,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 3,No,,4951,39.6588,12484,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 5,Yes,,8557,67.6817,12643,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 5,No,,4086,32.3183,12643,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 7,Yes,,7634,61.5248,12408,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Court of Appeals Judge - Position 7,No,,4774,38.4752,12408,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,District Court Judge - District 6,Yes,,8516,67.2086,12671,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,District Court Judge - District 6,No,,4155,32.7914,12671,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Attorney General,Kris Kobach,,8684,61.8122,14049,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Attorney General,Chris Mann,,5349,38.0739,14049,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Attorney General,Write-in,,16,0.1139,14049,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Commissioner of Insurance,Daniel Hawkins,,8565,61.2836,13976,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Commissioner of Insurance,Dinah Sykes,,4844,34.6594,13976,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Commissioner of Insurance,Ric Koehn,,560,4.0069,13976,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Commissioner of Insurance,Write-in,,7,0.0501,13976,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Governor/Lt. Governor,Ty Masterson,,8690,61.7407,14075,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Governor/Lt. Governor,Cindy Holscher,,5350,38.0107,14075,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Governor/Lt. Governor,Write-in,,35,0.2487,14075,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 26th District,Chip VanHoudan,,633,56.0673,1129,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 26th District,Laura Johnson,,495,43.8441,1129,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 26th District,Write-in,,1,0.0886,1129,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 5th District,Courtney Sappington,,1752,66.4896,2635,10,10,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 5th District,Henry Johns,,869,32.9791,2635,10,10,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 5th District,Write-in,,14,0.5313,2635,10,10,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 6th District,Samantha M Poetter Parshall,,5942,62.7853,9464,31,32,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 6th District,Frank Henderson,,3509,37.0773,9464,31,32,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 6th District,Write-in,,13,0.1374,9464,31,32,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 9th District,Fred Gardner,,657,96.9027,678,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Representative 9th District,Write-in,,21,3.0973,678,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Secretary of State,Pat Proctor,,8477,60.4507,14023,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Secretary of State,Jennifer Day,,4910,35.0139,14023,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Secretary of State,Scott E Morgan,,629,4.4855,14023,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS Secretary of State,Write-in,,7,0.0499,14023,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 3rd District,Jim McMullen,,4842,62.2045,7784,21,21,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 3rd District,Amy Diediker,,2934,37.6927,7784,21,21,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 3rd District,Write-in,,8,0.1028,7784,21,21,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 9th District,Destry Brown,,3898,63.0438,6183,29,30,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 9th District,Heather Guernsey,,2273,36.7621,6183,29,30,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Brd of Education 9th District,Write-in,,12,0.1941,6183,29,30,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Treasurer,Steven Johnson,,8461,60.3969,14009,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Treasurer,Juan C Luengo,,4316,30.8088,14009,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Treasurer,Eric Lund,,1229,8.7729,14009,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,KS State Treasurer,Write-in,,3,0.0214,14009,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct 4,Teresa Reeves,,246,57.3427,429,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct 4,Thorvald (Thor) McKiearnan,,182,42.4242,429,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct 4,Write-in,,1,0.2331,429,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct At-Large,Craig Hufferd,,875,53.2238,1644,5,5,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct At-Large,Arlen Thompson,,740,45.0122,1644,5,5,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Louisburg City Council Precinct At-Large,Write-in,,29,1.764,1644,5,5,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Miami County Question,Yes,,9368,67.7221,13833,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Miami County Question,No,,4465,32.2779,13833,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Council Precinct 2,Anthony Hugo,,324,97.8852,331,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Council Precinct 2,Write-in,,7,2.1148,331,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Council Precinct 4,Debbie Hayes,,599,97.3984,615,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Council Precinct 4,Write-in,,16,2.6016,615,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Question Paola City,Yes,,1219,63.03,1934,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Paola City Question Paola City,No,,715,36.97,1934,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Supreme Court Justice - Position 4,Yes,,7398,57.4201,12884,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Supreme Court Justice - Position 4,No,,5486,42.5799,12884,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Supreme Court Justice - Position 6,Yes,,7186,56.2725,12770,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Supreme Court Justice - Position 6,No,,5584,43.7275,12770,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Marysville Township,Elizabeth Klinker,,1022,97.5191,1048,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Marysville Township,Write-in,,26,2.4809,1048,7,7,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Miami Township,Nancy Heidrick,,236,97.5207,242,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Miami Township,Write-in,,6,2.4793,242,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Middle Creek Township,Kirt Stevens,,831,98.227,846,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Middle Creek Township,Write-in,,15,1.773,846,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Mound Township,Darryl White,,223,94.8936,235,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Mound Township,Write-in,,12,5.1064,235,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Osage Township,Monita Lee,,204,99.0291,206,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Osage Township,Write-in,,2,0.9709,206,1,1,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Osawatomie Township,Leslie Belt,,214,89.5397,239,2,3,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Osawatomie Township,Write-in,,25,10.4603,239,2,3,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Paola Township,Joe Flake,,427,98.3871,434,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Paola Township,Write-in,,7,1.6129,434,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Richland Township,Omera Brown,,884,98.5507,897,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Richland Township,Write-in,,13,1.4493,897,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Stanton Township,Charles R Eggleston,,276,88.1789,313,3,3,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Stanton Township,Write-in,,37,11.8211,313,3,3,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Sugar Creek Township,Katie Doherty,,181,97.8378,185,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Sugar Creek Township,Write-in,,4,2.1622,185,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Ten Mile Township,Laura Scott,,677,97.8324,692,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Ten Mile Township,Write-in,,15,2.1676,692,2,2,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Valley Township,Mark Glenn,,509,96.7681,526,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Valley Township,Write-in,,17,3.2319,526,4,4,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Wea Township,Topher Philgreen,,2383,96.9093,2459,6,6,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,Township Clerk Wea Township,Write-in,,76,3.0907,2459,6,6,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US House of Representative - Dist 3,Eric Jenkins,,8360,59.2908,14100,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US House of Representative - Dist 3,Sharice L Davids,,5400,38.2979,14100,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US House of Representative - Dist 3,Steven A Hohe,,331,2.3475,14100,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US House of Representative - Dist 3,Write-in,,9,0.0638,14100,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US Senate,Roger Marshall,,8167,57.8236,14124,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US Senate,Adam Hamilton,,5486,38.8417,14124,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US Senate,David C Graham,,457,3.2356,14124,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00
+KS,county,Miami,US Senate,Write-in,,14,0.0991,14124,50,51,Miami County Clarity ENR,https://results.enr.clarityelections.com/KS/Miami/127491/,,2026-11-07T04:32:41+00:00

@@ -1,0 +1,63 @@
+=======================================================================================================================
+DOCUMENTATION FOR US_VEP_TURNOUT_RATES
+Version: 1.4
+Date: 3/2/2026
+Authors and Licenses:
+1948-Present data are provided by Michael McDonald, Professor of Political Science, University of Florida.
+   They are released under an Creative Commons 4.0 Attribution License. See: https://creativecommons.org/licenses/by/4.0/
+Prior to 1948 data were provided by Walter Dean Burnham. 
+   I am unaware of licensing requirements for these data as they were personally provided to me by Walter Dean Burnham. 
+=======================================================================================================================
+
+============
+RELEASE NOTES
+============
+
+Version 1.1 of national timeseries 
+- Updates 2022 for release of 2022 version 1.1
+- Fixes error in 2018 VAP calculations
+
+Version 1.4 of national timeseries 
+- Update 2024 for release of 2024 version 0.4
+
+============
+VARIABLES
+============
+
+YEAR
+=======
+Year of election
+
+TURNOUT_RATE_PRES
+=======
+Voting-eligible population turnout rate for presidential elections. 
+
+TURNOUT_RATE_MIDTERM
+=======
+Voting-eligible population turnout rate for midterm election. 
+
+============
+NOTES
+============
+National United States Voting-Eligible Population (VEP) turnout rate for the appropriate national election.
+
+For methodologies used to create the 1948-Present turnout rates, see corresponding state turnout rate pages at election.lab.ufl.edu.
+For further information see:
+
+- Michael P. McDonald and Samuel Popkin. 2001. "The Myth of the Vanishing Voter." American Political Science Review 95(4): 963-974.
+- Michael P. McDonald. 2002. "The Turnout Rate Among Eligible Voters for U.S. States, 1980-2000." State Politics and Policy Quarterly 2(2): 199-212. 
+- Michael P. McDonald. 2011. "Voter Turnout: Eligibility Has Its Benefits" in Controversies in Voting Behavior, 2nd Edition, Richard G. Niemi, Herbert F. Weisberg, and David Kimball, eds. Washington, DC: CQ Press.
+
+Prior to 1948 data were provided to me by Walter Dean Burnham. These statistics may also be found in: 
+- Vital Statistics of American Politics, 2015-2016, Harold Stanley and Richard Neimi, eds. CQ Press, Washington, DC.
+
+The voting eligible population is an estimate of those eligible to vote in an election.
+
+Of course, historical turnout rates are challenged in that they are calculated from election results with accuracy challenges.
+The historical voting-eligible population is calculated from estimates of classes of enfranchised populations that are as 
+accurate as may be. With these caveats, these historical turnout rates are regarded as the most accurate available.
+
+The pre-1948 numbers are taken from Vital Statistics of American Politics (CQ Press, Stanley and Niemi, eds.).
+Turnout rates from 1948-present are from various years reported on the data archive.
+
+Pre-1948 turnout rates are from Walter Dean Burnham, to whom I and many others are deeply indebted.

@@ -1,0 +1,3 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+NY,state,,State Comptroller,Tom DiNapoli,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_New_York_State_Comptroller_election,,2026-11-07T04:34:19+00:00
+NY,state,,State Comptroller,Joseph Hernandez,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_New_York_State_Comptroller_election,,2026-11-07T04:34:19+00:00

@@ -1,0 +1,11 @@
+st,state,early_2026,early_2024_same_point,early_2022_same_point,pace_vs_2024_pct,pace_vs_2022_pct,dem_pct,rep_pct,other_pct,dem_minus_rep,source_tag,party_source,party_as_of,note
+AK,Alaska,26450,26995,24018,98.0,110.1,20,28,52,-8,reg.,NBC (state registration),2026-10-23,"2026 count: NBC, 23 Oct; 2022 and 2024: NBC at the same point."
+KS,Kansas,154074,174898,73262,88.1,210.3,47.7,39.1,13.2,8.6,reg.,"Kansas file via UF (registration), 23 Oct",2026-10-23,"2022 figure is a single NBC snapshot and could not be checked against the state. 2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+TX,Texas,2747668,3538890,2005435,77.6,137.0,34.7,31.3,34.0,3.4,primary,"TX SOS rosters, last primary, through 21 Oct",2026-10-21,"Party mix not refreshed today (state file needs a browser download). 2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+MI,Michigan,986207,1431093,920125,68.9,107.2,54,37,9,17,model,NBC/TargetSmart model,2026-10-23,"2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+SC,South Carolina,389672,575144,162794,67.8,239.4,47,45,8,2,model,NBC/TargetSmart model,2026-10-23,"2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+OH,Ohio,922179,1398807,787440,65.9,117.1,33.3,27.4,39.4,5.9,primary,"Ohio SOS, last primary, as of 22 Oct",2026-10-22,"Party mix not refreshed today (state file needs a browser download). 2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+IA,Iowa,207774,317952,197980,65.3,104.9,50.9,32.0,17.1,18.9,reg.,"Iowa SOS via UF (registration), 23 Oct",2026-10-23,"2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."
+ME,Maine,136096,216248,117673,62.9,115.7,52.1,20.0,27.9,32.0,reg.,"Maine SOS absentee file via UF (registration), file of 20 Oct",2026-10-20,"2026 count: NBC, 23 Oct; 2022 and 2024: NBC at the same point."
+NH,New Hampshire,18908,37362,21089,50.6,89.7,42,30,28,12,reg.,NBC (state registration),2026-10-23,"2026 count: NBC, 23 Oct; 2022 and 2024: NBC at the same point."
+MN,Minnesota,419189,845698,282277,49.6,148.5,44,17,39,27,model,NBC/TargetSmart model,2026-10-23,"2026 count: UF Election Lab (state data, 23 Oct); 2022 and 2024: NBC at the same point."

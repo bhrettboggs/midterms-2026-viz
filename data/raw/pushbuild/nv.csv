@@ -1,0 +1,5 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+NV,state,,State Controller,Michael MacDougall,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Nevada_State_Controller_election,,2026-11-07T04:33:59+00:00
+NV,state,,State Controller,Andy Matthews,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Nevada_State_Controller_election,,2026-11-07T04:33:59+00:00
+NV,state,,State Treasurer,Drew Johnson,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Nevada_State_Treasurer_election,,2026-11-07T04:33:59+00:00
+NV,state,,State Treasurer,Tya Mathis-Coleman,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Nevada_State_Treasurer_election,,2026-11-07T04:33:59+00:00

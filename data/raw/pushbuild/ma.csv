@@ -1,0 +1,5 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+MA,state,,State Auditor,Diana DiZoglio,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Massachusetts_State_Auditor_election,,2026-11-07T04:32:57+00:00
+MA,state,,State Auditor,Al Ozonoff,Libertarian,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Massachusetts_State_Auditor_election,,2026-11-07T04:32:57+00:00
+MA,state,,Treasurer and Receiver-General,Elizabeth Dionne,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Massachusetts_Treasurer_and_Receiver-General_election,,2026-11-07T04:32:57+00:00
+MA,state,,Treasurer and Receiver-General,Deb Goldberg,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Massachusetts_Treasurer_and_Receiver-General_election,,2026-11-07T04:32:57+00:00

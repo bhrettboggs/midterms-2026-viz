@@ -1,0 +1,11 @@
+indicator,cycle,value,unit,as_of,source
+generic_ballot_average,2026,9.0,D−R points,2026-10-23,"Silver Bulletin generic ballot average, 11 days out"
+generic_ballot_average,2018,8.2,D−R points,2018-10-26,"538 generic ballot average, 11 days out"
+generic_ballot_average,2022,-0.6,D−R points,2022-10-28,"538 generic ballot average, 11 days out"
+early_ballots,2026,21654855,ballots,2026-10-23,NBC News early-vote tracker
+early_ballots,2024,35546229,ballots,2024-10-25,"NBC News early-vote tracker, 2024, same point"
+early_ballots_share_of_prior_turnout,2026,19.7,percent of 2022 total turnout,2026-10-23,NBC News early-vote tracker; 2022 total ballots cast
+early_ballots_share_of_prior_turnout,2024,22.7,percent of 2024 total turnout,2024-10-25,NBC News early-vote tracker; 2024 total ballots cast
+early_ballots_vs_2024_same_point,2026,61,percent of 2024 count,2026-10-23,"NBC News early-vote tracker, 2026 and 2024"
+early_voters_dem_minus_rep,2026,15,D−R points,2026-10-23,NBC News / TargetSmart (party modelled in 21 states)
+early_voters_dem_minus_rep,2024,2,D−R points,2024-10-25,NBC News / TargetSmart

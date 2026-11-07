@@ -1,0 +1,5 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+IL,state,,Comptroller,Margaret Croke,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Illinois_Comptroller_election,,2026-11-07T04:32:30+00:00
+IL,state,,Comptroller,Bryan Drew,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Illinois_Comptroller_election,,2026-11-07T04:32:30+00:00
+IL,state,,State Treasurer,Mike Frerichs,Democratic,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election,,2026-11-07T04:32:30+00:00
+IL,state,,State Treasurer,Max Solomon,Republican,,,,,,Candidate list (Wikipedia race summary); official results not posted yet,https://en.wikipedia.org/wiki/2026_Illinois_State_Treasurer_election,,2026-11-07T04:32:30+00:00

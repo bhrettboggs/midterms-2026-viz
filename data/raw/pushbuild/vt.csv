@@ -1,0 +1,541 @@
+state,level,county,contest,candidate,party,votes,pct,contestTotalVotes,precinctsReporting,precinctsTotal,source,sourceUrl,sourceUpdatedAt,fetchedAt
+VT,state,,Attorney General,CHARITY R. CLARK,DEMOCRATIC,400960,67.7398,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,EDWIN HOWELL KEMON,REPUBLICAN,189896,32.0818,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,OTHER WRITE-IN,,830,0.1402,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,BLANK,,18,0.003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SARAH GEORGE,,14,0.0024,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,KEVIN HOYT,,10,0.0017,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,MEREDITH CHAUDOIR,,6,0.001,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ELIZABETH GRANT,,6,0.001,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,COTIE STANLEY,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"GEORGE, SARAH",,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"HOYT, KEVIN",,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,IAN SULLIVAN,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,BLANK WRITE INS ,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,FICTIOUS,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,UNKNOWN,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ROBERT APPEL,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,KEITH BILLIAN,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ROBERT LOBLAW,,4,0.0007,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,FRANK J,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,COREY SMYTH,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JACOB GRAYCK,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,LINDA JOY SULLIVAN ,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SUSAN YOUNG,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,DENNIS PRATT JR,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,RYAN ROY,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ALEXIS MCCLOUD,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ACE ARCHDEACON,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,KREATURE ROSEINGRAVE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ROCHELLE WILSON,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,TJ DONOVAN,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,EDWIN HOWELL KEMON,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,HOLLY LEACH,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,BOB STEBBINS,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,GABRIEL BERRIOS,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,BRAM KRANICHFELDT,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ELIZABETH HUNT,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,THOMAS COOK,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SUSAN CAPOBIANZO,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,RORY THIBAULT,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"BLOOM, KEVIN",,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"CRAWFORD, JEFFREY",,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"KRANICHFELD, BRAM",,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"STARK, HARRISON",,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,"YOUNG, SUZANNE",,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JACE LAQUERRE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JULIE THOMPSON,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,CHARLES ROMEO,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,LIZ QUINLAN,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JEFF MESSINA,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ANGELA LAWRENCE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,CALI,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,DARYL RALEIGH,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,DAVID SILVER,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,LIA ERNST,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,CHARITY CLARK,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,NATHAN TRAYNOR,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,NICK DAVIS,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JUNE GOOD,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,LIAM ETTORI,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,MAXWELL,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SARA GEORGE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,CAM JOHNSTON,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SHAWN GOTTLIN,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,TYLER BOEMIG,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,GRACE PEER,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,LAVOIE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,DEVIN DALE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,TOM HANGO,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,DONALD TRUMP,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JOHN MANAHAN,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,STEVEN TENDO,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,HEIDI STARR,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SUZIE KELLEHER,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,BRAN KRANICHFELD,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JIM DANDENEAU,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,TOD DELOZ,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,CINDY MAXINE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,JOE CLARK,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,J.B. WEIR,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,SEAMUS PAGE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,HARLAND MILLER III,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,TODD BLANCHE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ROBERT GERYK,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Attorney General,ROGER LACHANCE,,2,0.0003,591912,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TIM ASHE,DEMOCRATIC,406752,69.0904,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,IVAR KRONICK,REPUBLICAN,181374,30.808,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,OTHER WRITE-IN,,406,0.069,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,KEVIN HOYT,,8,0.0014,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,BLANK,,8,0.0014,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,FICTIOUS,,6,0.001,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,COTIE STANLEY ,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,IVAR KRONICK,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICK GRAETER,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"HOYT, KEVIN",,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,BLANK WRITE INS ,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TYLER BOEMIG,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICHOLAS GRATER,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ANDRE CHAMPGANE,,4,0.0007,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,HANK BARRETT,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,AARON FOSTMAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,COREY SMYTH,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,LINDA JOY SULLIVAN ,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ROBERT TESTA JR,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,CHRIS WOOD,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,SHEILA VALLEY,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,HENRY MATAMOROS FLORES,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ELIZABETH HUNT,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,LANE MORRISON,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MEG GRAS,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,THOMAS COOK,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,BRANDAN STROUP,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,JONAS HASTING,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICHOLAS BOYARKO,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,KEITH MARINO,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,DOUG GOLDSMITH,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,JEREMY BREAULT,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"JARVIS, BRENT",,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"PERCY, DIANE",,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"BARRETT, JIM",,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"LESNY, NATHAN",,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,"STONE, CAROL",,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,JACE LAQUESNE,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICHOLAS GREETER,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,SAYMAM ARASA,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,STEVE DODD,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,GREG GERO,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MITCHELL MAYNARD,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,SKYLAR CALACCI,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,BEN PARTLOW,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,GRACE BAIRD,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MIRO WEINBERGER,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,DANIEL TOWLE,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,STEVE HOGAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MACEY ADELAIDE,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MARSHALL GLICKMAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,CALI,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TRUMP,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MATT PROUTY,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MELISSA DENSMORE,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TIM ASHE,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ELLIOTT NEMETH,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MAXWELL,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICHOLAS GRAETER,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TOM DEPOY,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,CAM JOHNSTON,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,SHAWN GOTTLIN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,STEPHANIE JONES,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ROBERT NORRIS ,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,DONALD TRUMP,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,DOUG HOFFER,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,KEVIN MANAHAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,HEIDI STARR,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,JUNE SOLSAA,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,KEITH BILLIAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,JOAN WRIGHT,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TOM OTTERMAN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,N WEIGH,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MARK FLOWERS,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,RYAN MOONEY,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,NICHOLAS GRUETER,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ROBERT GERYK,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ED CONNORS,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,TEDDY HIBBERD,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,MIKE PIECIAK,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ALLAN CHAMBERLAIN,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ELIZABETH GRANT,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Auditor Of Accounts,ROSY BLAYLOCK,,2,0.0003,588724,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,PHIL SCOTT,REPUBLICAN,324084,52.4314,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,AMANDA JANOO,DEM/PROG,283262,45.8271,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BRIAN JUDD,INDEPENDENT,5228,0.8458,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JUNE GOODBAND,PEACE AND JUSTICE,2454,0.397,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DEAN ROY,FREEDOM AND UNITY,2274,0.3679,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,OTHER WRITE-IN,,488,0.079,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,KEVIN HOYT,,92,0.0149,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ALY RICHARDS,,12,0.0019,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BLANK,,12,0.0019,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,PHIL SCOTT,,10,0.0016,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BRYAN PONNWITZ,,10,0.0016,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DONALD TRUMP,,6,0.001,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JIM DOUGLAS,,6,0.001,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,"RICHARDS, ALLY",,6,0.001,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,KEVIN MICHAEL HOYT,,6,0.001,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,FICTIOUS,,6,0.001,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,COTIE STANLEY ,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JONAS HASTINGS,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,"HOYT, KEVIN",,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JOHN ROGERS,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BLANK WRITE INS,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,MAXWELL,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JEFFREY NICHOLS,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,KEITH BILLIAN,,4,0.0006,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RODNEY ALLEN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RONALD VEINO,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,GLEN SAUSVILLE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,LUKE SHE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JAMES MAYBEE JR,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,VICTOR HARWOOD,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,WARREN ROAF,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RYAN ROY,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JOHN O'BRIEN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JOHN SUNNUNU,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ALLY RICHARDS,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ROBERT LADUE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ANDREW KLEIN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,TUCKER CARLSON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,THOMAS GARBITELLI,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,CALLIE TILTON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,KEESE LANE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,TIGER OPSTRUP,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,NATHAN COOK,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DANIELLE JANKOWSKI,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JED LIPSKY,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,GABE MESSIER,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,"MILIZIA, JASON",,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,COREY BERTRAND,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JEREMY ALLARD,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JAY SHEPARD,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,CHARLES MRAZ,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,MARGO NUGENT,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BERNIE SANDERS,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DONALD DUCK,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ROGER PARKER,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,MICHAEL PRATT,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,PETER FIX,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,OTIS NELSON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JOHN KLAR,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BARRY SHELTON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JAP,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,GEORGE DEBLON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,THOMAS XELLY,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DEAN ROY,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BRIAN COLLAMORE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,FICTIOIUS,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,SHAWN GOTTLIN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,JOHN BLAIR,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,PHIL SCOTT ,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ANDREW GUSTUFSON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ISAC CIOFFI,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,ALEJANDRO E. YOUNG H.,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BRIAN DUBEY,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RANDY BROCK,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,BRIAN DUBIE,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,DAVE YOUNG,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,KEVIN PREIST,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,NEIL RYAN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,TOM OTTERMAN,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,LAURA GALLUP,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,CARLTON ANDERSON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RON BOUCHER,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,TIM HALL,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,RICK SANCHEZ,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Governor,CARLTON LANGSTON ANDERSON,,2,0.0003,618110,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,MOLLY GRAY,DEMOCRATIC,381976,62.7635,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOHN S. RODGERS,REPUBLICAN,225500,37.0525,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,OTHER WRITE-IN,,820,0.1347,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RYAN MCLAREN,,22,0.0036,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BLANK,,18,0.003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"MCLAREN, RYAN",,14,0.0023,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,FICTIOUS,,14,0.0023,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVID ZUCKERMAN,,8,0.0013,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,KEVIN HOYT,,8,0.0013,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BRIAN JUDD,,8,0.0013,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BLANK WRITE INS ,,6,0.001,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,PHIL SCOTT,,6,0.001,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOHN RODGERS,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ALY RICHARDS,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,MOLLY GRAY,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,NATHAN COOK,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"HOYT, KEVIN",,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"JANOO, AMANDA",,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,GARY LYMAN,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JIM DOUGLAS,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,AMANDA JANOO,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JUNE GOODBAND,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ROBERT HUNTER,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BRIAN COLLAMORE,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RYAN MCLOREN,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ROBERT NORRIS,,4,0.0007,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,COTIE STANLEY,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOEY JULKIN ,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,KARLA RIGHI,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOHN ZUCKERMAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,GRIFFIN SHUMWAY,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,SUZANNE SEYMORE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,TRAVIS KELLEY,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,THOMAS GARBITELLI,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,GABRIEL BERRIOS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BRENDAN HAWKS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BRAD REED,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,COLUMBO MAMDANI,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,TANYA VYHOVSKY,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,FREDERICK NOYES,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,THOMAS HATHAWAY,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,PEARL EDELMAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"BRENNAN, PAT",,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"WURTHNANN, SANDY",,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,"JACKSON, SHANNON",,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVID PRATT,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RUBIE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,CARL LEROUX,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JUSTIN DANIELS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RAYMOND SWEENEY JR,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RICHARD NELSON,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,TY CREASER,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVID ZUCKERMANN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,H. BROOKE PAIGE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DONALD TRUMP,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ROGER STAUSS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,SCOTT GILLETTE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOE BENNING,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,SUE BENNING,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RUSS INGALLS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JERRY GARCIA,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOHN ROGERS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ESTER CHARLSTON,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,GARY JOHNSON,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,PAUL DROFEVER,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RICHARD GOSSELIN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ELIZABETH PES,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,EVAN MEENAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,CALI,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JAP,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ESTHER CHARLESTIN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,KORA SKEELE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,SEN J WHITE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,GREGORY THAYER,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,NICK DAVIS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,AMANDO JANOO,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JAY SHEPPARD,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,LEACH DELPEZZO,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,MAXWELL,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVE ZUCKERMAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,SHAWN GOTTLIN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,STEPHANIE JONES,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,KIM MANAHAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,KEITH BILLIAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BRIAN DUBIE,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVE YOUNG,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,BOOTS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RYAN MCLAVEN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,NATE SULLIVAN,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,JOHN S RODGERS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,ROSE-MARIE PERILLAT,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RALPH CORBO,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,CHARLES KIMBALL,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,DAVID BUSH,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,RALPH WIEGENS,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Lieutenant Governor,CAREY CROZIER,,2,0.0003,608596,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BECCA BALINT,DEMOCRATIC,397516,65.2361,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,GERALD MALLOY,REPUBLICAN,188156,30.8781,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,"SUZANNE ""SUZ"" SEYMOUR",INDEPENDENT,8724,1.4317,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,RYAN P. WALTON,INDEPENDENT,5400,0.8862,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,PHOENIX K. ALTAIR,INDEPENDENT,4670,0.7664,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ADAM ORTIZ,INDEPENDENT,4392,0.7208,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,OTHER WRITE-IN,,328,0.0538,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,FICTIOUS,,8,0.0013,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BLANK,,8,0.0013,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JEAN RAY,,8,0.0013,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,PHIL SCOTT,,6,0.001,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,KEVIN HOYT,,6,0.001,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,CRIS ERICSON,,6,0.001,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BLANK WRITE INS,,6,0.001,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MOLLY GRAY ,,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,"HOYT, KEVIN",,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,PEMBLE-BELKIN,,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JESSICA MONTINERO,,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,AMANDA JANOO,,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MOLLY GRAY,,4,0.0007,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ALY RICHARDS,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ERIC POSTEL,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MARY MORRISSEY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,KIRBY MENE,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,LORRAINE DONATALLI,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JOHN SUNNUNU,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MATT MONTGOMERY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ELENA RUBNETTI,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JOHN YOUNG,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,GERALD MALLOY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,KASEY LONG,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,SHIRLEY OPSTRUP,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,THOMAS COOK,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,DANIELLE JANKOWSKI,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JONAS HASTINGS,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,KEITH MARINO ,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MARK COESTER,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,RICHARD DYNLO,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MARK STEWART,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,"BERRY, MIRIAM",,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,"DODGE, LEONORA",,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,"ALDEN, LUKE",,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,GREG JOLY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ETHAN SWIFT,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,ROGER PARKER,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MARK HIGLEY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,OWEN PERCY,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,CALI,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JAP,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,D MORRISSEAU,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,NICHOLAS ROSTOW,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JIM SULLIVAN,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BECCA BALINT,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,LEACH DELRIZZO,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,MAXWELL BRIGHTON SMITH,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,CAM JOHNSTON,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JILL DIAMOND,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,SHAWN GOTTLIN,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,WILL MANAHAN,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,KEITH BILLIAN,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,VIVIANNE MEDRANO,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BRUCE WHITMAN,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,JULIO THOMPSON,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,CAMERON AINSWORTH,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,BEN FOLTZ,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Representative To Congress,GINA GALFETTI,,2,0.0003,609350,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,SARAH COPELAND HANZAS,DEMOCRATIC,349482,59.2081,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,H. BROOKE PAIGE,REPUBLICAN,192294,32.5778,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,RACHEL SHAW,PROGRESSIVE,48012,8.134,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,OTHER WRITE-IN,,342,0.0579,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,BLANK,,10,0.0017,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,BLANK WRITE INS,,6,0.001,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,COTIE STANLEY,,4,0.0007,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,KEVIN HOYT,,4,0.0007,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,H. BROOKE PAIGE,,4,0.0007,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"HOYT, KEVIN",,4,0.0007,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,FICTIOUS,,4,0.0007,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,MATT LINCOLN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,AARON DICKIE,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,MICHAEL BROWN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,JIM VYHNAK,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,NOAH TRADER,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,GABRIEL BERRIOS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,BRAM KRANICHFELD,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,ELIZABETH HUNT,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,MARY MEAD,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,THOMAS COOK,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,KEITH MARINO,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"JARVIS, BRENT",,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"PERCY, DIANE",,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"BAKER, JEFF",,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"PORPEEDIS, GRACE",,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,"WINTERS, CHRIS",,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,JOSEPH BAKER,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,WESLEY KEMPTON,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,DONALD TRUMP,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,MIGUEL LEVY,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,BERNARD BOUGDUIS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,ED GROSSMAN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,IAN HUTCHINGS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,CHRIS WINTERS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,CALI,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,AMY MOORE,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,BRYCE HODSON,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,CHRISTINA NOLAN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,MAXWELL,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,PHIL SCOTT,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,CAM JOHNSTON,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,HENRY POITRAS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,SHAWN GOTTLIN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,STEPHANIE JONES,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,ADAM BUSHEY,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,TAYLOR OLDS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,CONNOR BURLESON,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,JOHN STARR,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,GREGORY LEWIS,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,KEITH BILLIAN,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,ABIGAIL KELLEHER,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,TAMAR BOUCHARD,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,PETE ME,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,RANDY GRAVES,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,ROBERT ROTTI,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,JEFFREY REAL,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,Secretary Of State,DAMON CRAMER,,2,0.0003,590260,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MIKE PIECIAK,DEMOCRATIC,369336,62.1617,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,LYNN LAFLEUR,REPUBLICAN,185538,31.2273,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ZACHARY HAMPL,PROGRESSIVE,38490,6.4781,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,OTHER WRITE-IN,,578,0.0973,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BLANK,,30,0.005,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BLANK WRITE INS ,,14,0.0024,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,FICTIOUS,,14,0.0024,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MIKE PIECIAK,,8,0.0013,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,KEVIN HOYT,,6,0.001,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MAXWELL,,6,0.001,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,COTIE STANLEY,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MIKE PIECEK,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,TONY COWART,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"HOYT, KEVIN",,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"PIECIAK, MIKE",,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"FLEUR, LYNN",,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,GAVIN BOYLES,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BLANK BUT CIRCLED,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,KEITH BILLAIN,,4,0.0007,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,JOHN LINCOLN,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ANGELO ODATO,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,LYNN LAFLEUR,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ADAM HOWARD,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,GABRIEL BERRIOS,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ELIZABETH HUNT,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,HUGH JANUS,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MARY MEAD,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,THOMAS COOK,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,PERRY MASON,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BRANDEN STROUP,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BRUCE MELENDY,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,JONAS HASTING,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,KEITH MARINO,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"HEDIBERG, BREN",,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"PERCY, DIANE",,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"ALDEN, LUKE",,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"BILLODEAU, ANDREW",,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,"VANZO, SEAN",,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,GARRIT SMITS,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,STEVE DODD,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,CHANDLER SHOVER,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,NICK GRAETER,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,JAMES PEYTON,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,CALI,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,PETE GUENTHER,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MIKE PEACIK,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,NICK DAVIS,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,HANNAH BOOK,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BILEY DYER,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,CAM JOHNSTON,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,GREGORY ZULLO,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,SHAWN GOTTLIN,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,STEPHANIE JONES,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,TIM VIENS ,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ADAM BUSHEY,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,TAYLOR OLDS,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ISAC CIOFFI,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,JENSON SPONNER,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,JASON STARR,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,VINCE ROBINSON,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,ANDREW ROWE,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,GEORGE MICHAELBLUTH,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,J.B. WEIR,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,STEPHANE PERILLAT,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,H BROOKE PAIGE,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,HARLAND CLARKE,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,MARY MARKOWSKI,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
+VT,state,,State Treasurer,BRIAN DUBE,,2,0.0003,594154,247,247,Vermont Secretary of State,https://electionresults.vermont.gov/,11/06/2026 11:33 PM,2026-11-07T04:35:31+00:00
