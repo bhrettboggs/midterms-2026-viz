@@ -15,7 +15,7 @@ import unicodedata
 
 import pandas as pd
 
-from common import CLEAN, RAW, STATES, note, party_bucket
+from common import CLEAN, RAW, STATES, ie_side, note, party_bucket
 
 WEBALL_COLS = [
     "cand_id", "cand_name", "cand_ici", "pty_cd", "party", "receipts", "trans_from_auth",
@@ -38,15 +38,31 @@ def name_tokens(name: str) -> set[str]:
 
 def match_fec(ballot: pd.DataFrame, fec: pd.DataFrame) -> pd.Series:
     """FEC candidate ID for each ballot row: same state, and the ballot surname appears anywhere
-    in the FEC name (handles "Fetty Anderson", "Arenholz, Ashley Hinson"). Most money wins ties."""
+    in the FEC name (handles "Fetty Anderson", "Arenholz, Ashley Hinson").
+
+    Among several same-surname filers, the one sharing the most name words with the ballot name
+    wins (so "Darline Graham" -> GRAHAM, DARLINE and not GRAHAM, LINDSEY O.); money breaks ties.
+    If two ballot candidates in one race still land on the same ID (Alaska's "Daniel J. Sullivan Jr."
+    and Sen. Dan Sullivan), only the one with more votes keeps it, so no committee is counted twice."""
     fec = fec.assign(tokens=fec.cand_name.map(name_tokens)).sort_values("receipts", ascending=False)
     out = {}
     for i, row in ballot.iterrows():
         last = next(iter(name_tokens(row["last"])), None)
+        full = name_tokens(row["candidate"])
         pool = fec[fec.state == row["state"]]
         hit = pool[pool.tokens.map(lambda t: last in t)] if last else pool.iloc[0:0]
+        if len(hit):
+            overlap = hit.tokens.map(lambda t: len(t & full))
+            hit = hit[overlap == overlap.max()]  # already sorted by receipts, so [0] is the richest
         out[i] = hit.cand_id.iloc[0] if len(hit) else None
-    return pd.Series(out)
+    ids = pd.Series(out)
+    ranked = ballot.assign(cand_id=ids).sort_values("votes", ascending=False)
+    dup = ranked.cand_id.notna() & ranked.duplicated(["race_id", "cand_id"], keep="first")
+    if dup.any():
+        note("senate: same FEC ID matched twice in one race, kept for the bigger vote-getter only: "
+             + ", ".join(f"{r.candidate} ({r.state})" for r in ranked[dup].itertuples()))
+    ids[ranked.index[dup]] = None
+    return ids
 
 
 def load_weball() -> pd.DataFrame:
@@ -67,13 +83,38 @@ def clean_ie() -> pd.DataFrame:
     junk = ie[ie.exp_amo > IE_CAP]
     junk[["cand_name", "spe_nam", "exp_amo", "pur", "receipt_dat"]].to_csv(CLEAN / "ie_dropped_junk.csv", index=False)
     ie = ie[(ie.exp_amo > 0) & (ie.exp_amo <= IE_CAP)]
-    # 3. The same spend often appears in a 24/48-hour report and again in a periodic report.
-    ie = ie.drop_duplicates(["spe_id", "cand_id", "exp_amo", "dissem_dt"])
+    # 3. The same spend often appears in a 24/48-hour report and again in a later periodic report.
+    #    Rows with the same spender, candidate, amount and distribution date are kept only from the
+    #    earliest filing they appear in. Identical rows inside ONE filing are kept: those are separate
+    #    buys (e.g. two $1.25M ad buys on the same day), not re-reports.
+    key = ["spe_id", "cand_id", "exp_amo", "dissem_dt"]
+    n_before, d_before = len(ie), ie.exp_amo.sum()
+    first_filing = ie.groupby(key, dropna=False).file_num.transform("min")
+    ie = ie[ie.file_num == first_filing]
+    note(f"outside money: {n_before - len(ie):,} rows / ${(d_before - ie.exp_amo.sum())/1e6:,.0f}M dropped as "
+         "re-reports of the same expenditure in a later filing")
 
     note(f"outside money: {n0:,} rows / ${d0/1e9:,.1f}B raw -> {len(ie):,} rows / ${ie.exp_amo.sum()/1e9:,.2f}B clean "
          f"({len(junk)} junk rows over ${IE_CAP/1e6:.0f}M dropped, totalling ${junk.exp_amo.sum()/1e9:,.1f}B)")
     ie.to_csv(CLEAN / "ie_clean.csv", index=False)
     return ie
+
+
+def senate_general_ie(ie: pd.DataFrame) -> pd.DataFrame:
+    """Outside spending in 2026 Senate general-election races, with the side it helped and a parsed
+    distribution date. Every chart that shows Senate outside money reads this one table."""
+    g = ie[(ie.can_office == "S") & (ie.ele_type == "G")].copy()
+    g["side"] = [ie_side(p, s) for p, s in zip(g.cand_pty_aff, g.sup_opp)]
+    g["date"] = pd.to_datetime(g.dissem_dt, format="%d-%b-%y", errors="coerce")
+    g = g[["cand_id", "cand_name", "cand_pty_aff", "can_office_state", "spe_id", "spe_nam", "sup_opp", "side",
+           "exp_amo", "date", "dissem_dt", "pur", "file_num"]].rename(columns={"can_office_state": "state"})
+    g.to_csv(CLEAN / "ie_senate_general.csv", index=False)
+    by = g.groupby("side").exp_amo.sum() / 1e6
+    undated = g[g.date.isna()].exp_amo.sum() / g.exp_amo.sum()
+    note(f"outside money, Senate general elections: ${g.exp_amo.sum()/1e6:,.0f}M in {len(g):,} rows; "
+         f"helping D ${by.get('D', 0):,.0f}M, helping R ${by.get('R', 0):,.0f}M, independents/other ${by.get('O', 0):,.0f}M; "
+         f"{undated:.1%} of dollars have no distribution date")
+    return g
 
 
 def senate_ballot() -> pd.DataFrame:
@@ -97,16 +138,16 @@ def senate_ballot() -> pd.DataFrame:
 def main() -> None:
     w = load_weball()
     ie = clean_ie()
+    g = senate_general_ie(ie)
     ballot = senate_ballot()
 
-    # Match ballot candidates to FEC IDs by state + surname, preferring the committee with most money.
+    # Match ballot candidates to FEC IDs by state + surname (see match_fec for tie-breaking).
     fec_s = w[w.office == "S"]
     ballot["cand_id"] = match_fec(ballot, fec_s)
     cand = ballot.merge(fec_s[["cand_id", "receipts", "disbursements", "coh_start", "coh_end", "indiv_contrib",
                                "pac_contrib", "party_contrib", "cand_contrib", "cand_loans", "trans_from_auth",
                                "coverage_end"]], on="cand_id", how="left")
 
-    g = ie[(ie.can_office == "S") & (ie.ele_type == "G")]
     by_cand = g.pivot_table(index="cand_id", columns="sup_opp", values="exp_amo", aggfunc="sum", fill_value=0)
     by_cand = by_cand.rename(columns={"S": "outside_support", "O": "outside_oppose"})
     cand = cand.merge(by_cand, left_on="cand_id", right_index=True, how="left")
@@ -119,7 +160,7 @@ def main() -> None:
 
     # Race level. Outside money counts every general-election IE in that state's Senate race,
     # including spending aimed at minor candidates who aren't matched above.
-    race_ie = g.groupby("can_office_state").exp_amo.sum()
+    race_ie = g.groupby("state").exp_amo.sum()
     races = cand.groupby(["race_id", "election_name", "state"]).agg(
         total_votes=("votes", "sum"), campaign_spending=("disbursements", "sum"),
         pct_reporting=("percent_reporting", "max")).reset_index()
@@ -152,10 +193,9 @@ def main() -> None:
     for s, d in m.groupby(side):
         edges.append((s, "Spent", d.disbursements.sum()))
         edges.append((s, "Cash left (mid-Oct)", d.coh_end.sum()))
-    # Outside money never passes through a campaign: draw it as its own band.
-    gi = g[g.cand_id.isin(m.cand_id)].merge(m[["cand_id", "bucket"]], on="cand_id")
-    helps = gi.apply(lambda x: x.bucket if x.sup_opp == "S" else {"D": "R", "R": "D"}.get(x.bucket, "O"), axis=1)
-    for b, v in gi.groupby(helps).exp_amo.sum().items():
+    # Outside money never passes through a campaign: draw it as its own band. Same universe and
+    # side definition as the timing and per-state charts (every Senate general-election IE).
+    for b, v in g.groupby("side").exp_amo.sum().items():
         edges.append(("Outside groups", {"D": "Helping Democrats", "R": "Helping Republicans"}.get(b, "Independents and others"), v))
     pd.DataFrame(edges, columns=["source", "target", "value"]).to_csv(CLEAN / "senate_money_flow.csv", index=False)
 

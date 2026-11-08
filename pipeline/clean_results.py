@@ -70,6 +70,19 @@ def check_against_state_totals(raw: pd.DataFrame, t: pd.DataFrame) -> None:
     note(f"results: county sums vs statewide rows: {len(both)} races checked, {len(bad)} off by more than 1%")
 
 
+def d_vs_r_races(c: pd.DataFrame) -> set:
+    """Races whose two leading candidates statewide are one Democrat and one Republican.
+    Anything else (no Democrat on the ballot, or an independent as the main challenger, as in
+    Montana's Senate race) can't be compared with a D-vs-R presidential baseline."""
+    tot = c.groupby(["race_id", "candidate", "bucket"], as_index=False).votes.sum()
+    top2 = tot.sort_values("votes", ascending=False).groupby("race_id").head(2)
+    ok = top2.groupby("race_id").bucket.apply(lambda b: set(b) == {"D", "R"})
+    skipped = c[~c.race_id.isin(ok[ok].index)].drop_duplicates("race_id")
+    note("results: races not Democrat-vs-Republican at the top (left out of shift comparisons): "
+         + (", ".join(sorted(skipped.election_name)) or "none"))
+    return set(ok[ok].index)
+
+
 def county_table(c: pd.DataFrame) -> pd.DataFrame:
     """Sum votes to race x county x party bucket."""
     idx = ["race_id", "election_name", "state", "office", "special", "county_fips"]
@@ -79,8 +92,7 @@ def county_table(c: pd.DataFrame) -> pd.DataFrame:
     out = v.join(pr).reset_index().rename(columns={"D": "dem_votes", "R": "rep_votes", "O": "other_votes"})
     out["total_votes"] = out[["dem_votes", "rep_votes", "other_votes"]].sum(axis=1)
     out["margin_2026"] = (out.dem_votes - out.rep_votes) / out.total_votes  # + = D lead
-    # A race missing a D or an R candidate can't be compared with a D-vs-R baseline.
-    out["d_vs_r_race"] = out.groupby("race_id")[["dem_votes", "rep_votes"]].transform("sum").gt(0).all(axis=1)
+    out["d_vs_r_race"] = out.race_id.isin(d_vs_r_races(c))
     return out
 
 

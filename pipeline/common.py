@@ -34,6 +34,16 @@ def party_bucket(party: str) -> str:
     return "O"
 
 
+def ie_side(party: str, sup_opp: str) -> str:
+    """Which side an independent expenditure helps: supporting a party's candidate or opposing the
+    opponent both count for that party. Spending on independents and minor parties is 'O'.
+    One definition shared by the pipeline and every chart, so their totals agree."""
+    side = party_bucket(party)
+    if sup_opp == "O":
+        return {"D": "R", "R": "D"}.get(side, "O")
+    return side
+
+
 def norm_place(name: str) -> str:
     """Normalize a town/county name so civicAPI and Census spellings line up."""
     n = str(name).lower()
