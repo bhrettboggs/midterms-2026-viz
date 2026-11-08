@@ -1,6 +1,6 @@
 # Pipeline checks
 
-Generated 2026-11-08 15:33 by `pipeline/run_all.py`. Results are unofficial until states certify; re-run after certification.
+Generated 2026-11-08 16:02 by `pipeline/run_all.py`. Results are unofficial until states certify; re-run after certification.
 
 - results: one reporting level per state; dropped duplicate levels County (40), House District (320), Overseas (8), Town (7702), Township (2982)
 - results: 0 places could not be matched to a county code (0.000% of votes); see unmatched_places.csv
@@ -10,6 +10,12 @@ Generated 2026-11-08 15:33 by `pipeline/run_all.py`. Results are unofficial unti
 - map: 2815 counties in 45 states; 28 have no 2024 baseline match
 - map: states with no Senate or governor race in the data: DC, IN, MO, ND, UT, WA
 - map: states under 95% reporting (median county): AK 66%, CA 70%, WV 74%, PA 79%, AZ 80%, SD 80%, OK 81%, NJ 83%, KY 84%, GA 84%, TN 84%, MT 85%, AR 85%, RI 86%, WY 87%, MD 87%, HI 87%, NM 87%, NV 87%, WI 88%, DE 89%, KS 89%, FL 90%, NY 90%, IL 91%, CO 92%, TX 92%, OR 92%, NH 92%, MA 92%, NC 93%, OH 93%, ID 93%, VT 93%, ME 94%, AL 94%, MI 95%
+- baseline 2022: races not Democrat-vs-Republican at the top in 2022 (skipped): UT SEN
+- baseline 2022: governor-vs-governor in 31 states (2,015 counties); Senate-vs-Senate in 16 states (1,278 counties)
+- baseline 2022: 2026 races with no 2022 same-office baseline: AK GOV, AK SEN, DE SEN, MA SEN, ME SEN, MI SEN, MN SEN, MS SEN, NJ SEN, NM SEN, RI SEN, TN GOV, TN SEN, TX SEN, VA SEN, WV SEN, WY SEN
+- baseline 2022 GOV: 1 2022 counties in matched states had no 2026 county match (0.00% of their votes); e.g. SD OGLALA LAKOTA
+- baseline 2022 GOV: vote-weighted county shift since 2022 +12.1 points; 81% of counties moved toward Democrats
+- baseline 2022 SEN: vote-weighted county shift since 2022 +15.0 points; 94% of counties moved toward Democrats
 - outside money: 899 rows / $6M dropped as re-reports of the same expenditure in a later filing
 - outside money: 51,186 rows / $42.8B raw -> 44,619 rows / $3.71B clean (15 junk rows over $100M dropped, totalling $37.5B)
 - outside money, Senate general elections: $1,636M in 10,976 rows; helping D $772M, helping R $777M, independents/other $86M; 0.8% of dollars have no distribution date
