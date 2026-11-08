@@ -78,6 +78,7 @@ def aggregate(d: pd.DataFrame) -> pd.DataFrame:
     d["office"] = d.office.map({"US SENATE": "SEN", "GOVERNOR": "GOV"})
     d["special"] = d.special.astype(str).str.upper().eq("TRUE")
     d["county_fips"] = d.county_fips.astype(str).str.zfill(5)
+    d["county_fips"] = d.county_fips.replace({"46113": "46102"})  # Shannon County, SD became Oglala Lakota (46102) in 2015
     d.loc[~d.county_fips.str.fullmatch(r"\d{5}") | d.county_name.str.contains("FLOATING", na=False), "county_fips"] = "unassigned"
     d["precinct"] = d.precinct.fillna("")
 

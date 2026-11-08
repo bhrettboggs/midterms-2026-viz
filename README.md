@@ -12,7 +12,7 @@ kind of electorate constant.
 
 | Visual | Finding |
 |--------|---------|
-| [Same office, same counties, four years apart](viz/gov_swing_2022_2026/gov_swing_2022_2026.png) | Governor races moved 12 points toward Democrats from 2022 to 2026 (vote-weighted, 2,001 counties in 31 states); 81% of counties moved that way. Vermont (+40), Alabama, Ohio (+32) and Iowa (+29) moved most, Kansas (−3) and Massachusetts (−2) moved the other way. |
+| [Same office, same counties, four years apart](viz/gov_swing_2022_2026/gov_swing_2022_2026.png) | Governor races moved 12 points toward Democrats from 2022 to 2026 (vote-weighted, 2,002 counties in 31 states); 81% of counties moved that way. Vermont (+40), Alabama, Ohio (+32) and Iowa (+29) moved most, Kansas (−3) and Massachusetts (−2) moved the other way. |
 | [Two yardsticks, one swing](viz/two_yardsticks/two_yardsticks.png) | The median state's governor swing is +11 against 2022's governor race and +12 against the 2024 presidential vote, so the national story doesn't depend on the baseline. Individual states do: Vermont is +40 by one yardstick and −38 by the other, Kansas −2 vs +17, Oklahoma +8 vs +28. Those gaps are candidates, not voters. |
 | [Rural, suburban, urban](viz/density_swing/density_swing.png) | Within states, the sparsest counties moved 3–4 points less than the rest of their state, suburban-density counties 1 point more; votes cast rose 7% in urban counties and fell 2% in the sparsest. |
 
