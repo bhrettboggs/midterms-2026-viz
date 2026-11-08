@@ -19,3 +19,5 @@ Each script reads only from `data/clean/` and writes a 1200 × 1500 PNG (LinkedI
 | `age_turnout_shift/` | `age_turnout_shift.py` | `county_map_2026.csv` + raw Census age estimates |
 | `senate_states_glance/` | `senate_states_glance.py` | senate, IE and turnout tables + raw 2024 results and Census age |
 | `money_vs_odds/` | `money_vs_odds.py` | raw Polymarket daily + `ie_clean.csv` |
+| `demographic_trends/` | `demographic_trends.py` | `exit_poll_groups.csv` |
+| `demographic_shift_2026/` | `demographic_shift_2026.py` | `exit_poll_groups.csv` |

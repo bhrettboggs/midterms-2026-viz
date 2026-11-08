@@ -19,6 +19,8 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 | [Age, turnout and shift](viz/age_turnout_shift/age_turnout_shift.png) | Within states, the oldest fifth of counties turned out 5 points above average but moved 3 points less toward Democrats; the youngest fifth did the reverse. |
 | [Every Senate race at a glance](viz/senate_states_glance/senate_states_glance.png) | Which side outspent didn't track the swing (rank correlation +0.08); lower-turnout states swung more (−0.59). |
 | [Odds vs money](viz/money_vs_odds/money_vs_odds.png) | Polymarket's Democratic Senate odds stayed above 50% from Aug 31; Democratic-side outside money first out-spent the Republican side 35 days later. |
+| [30 years of how groups vote](viz/demographic_trends/demographic_trends.png) | The income gap flipped: voters earning $100K+ leaned Republican through 2020 and now lean Democratic, while voters under $50K swung toward Republicans in 2024. |
+| [Which groups moved in 2026](viz/demographic_shift_2026/demographic_shift_2026.png) | Every group in the exit polls moved toward Democrats vs. the 2022 midterm; Asian voters (+25), young voters and $100K+ earners (+20 each) moved most. |
 
 ![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
 ![Where the Senate money went](viz/senate_money_flow/money_flow.png)
@@ -34,6 +36,8 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 ![Age, turnout and shift](viz/age_turnout_shift/age_turnout_shift.png)
 ![Every Senate race at a glance](viz/senate_states_glance/senate_states_glance.png)
 ![Odds vs money](viz/money_vs_odds/money_vs_odds.png)
+![30 years of how groups vote](viz/demographic_trends/demographic_trends.png)
+![Which groups moved in 2026](viz/demographic_shift_2026/demographic_shift_2026.png)
 
 ## Repo layout
 

@@ -1,0 +1,141 @@
+year,election,dimension,group,dem,rep,share,pieces,margin
+1996,President,Age,18-29,54.529411764705884,35.470588235294116,17.0,2.0,19.058823529411768
+2000,President,Age,18-29,47.94117647058823,46.529411764705884,17.0,2.0,1.411764705882348
+2004,President,Age,18-29,53.64705882352941,45.35294117647059,17.0,2.0,8.294117647058826
+2006,House midterm,Age,18-29,60.0,38.0,12.0,1.0,22.0
+2008,President,Age,18-29,66.0,32.0,18.0,1.0,34.0
+2010,House midterm,Age,18-29,55.5,41.5,12.0,2.0,14.0
+2012,President,Age,18-29,60.0,37.0,19.0,1.0,23.0
+2014,House midterm,Age,18-29,54.0,43.53846153846154,13.0,2.0,10.46153846153846
+2016,President,Age,18-29,55.0,36.0,19.0,1.0,19.0
+2018,House midterm,Age,18-29,67.07692307692308,31.923076923076923,13.0,2.0,35.15384615384616
+2020,President,Age,18-29,60.0,36.0,17.0,1.0,24.0
+2022,House midterm,Age,18-29,62.84615384615385,34.61538461538461,13.0,2.0,28.230769230769234
+2024,President,Age,18-29,54.0,43.0,14.0,1.0,11.0
+2026,House midterm,Age,18-29,73.0,25.0,11.0,1.0,48.0
+1996,President,Age,65+,50.0,44.0,16.0,1.0,6.0
+2000,President,Age,65+,51.0,47.0,14.0,1.0,4.0
+2004,President,Age,65+,47.0,52.0,16.0,1.0,-5.0
+2006,House midterm,Age,65+,50.0,48.0,29.0,1.0,2.0
+2008,President,Age,65+,45.0,53.0,16.0,1.0,-8.0
+2010,House midterm,Age,65+,38.0,59.0,21.0,1.0,-21.0
+2012,President,Age,65+,44.0,56.0,16.0,1.0,-12.0
+2014,House midterm,Age,65+,41.0,57.0,22.0,1.0,-16.0
+2016,President,Age,65+,45.0,52.0,16.0,1.0,-7.0
+2018,House midterm,Age,65+,48.0,50.0,26.0,1.0,-2.0
+2020,President,Age,65+,45.0,52.0,16.0,1.0,-7.0
+2022,House midterm,Age,65+,43.0,55.0,28.0,1.0,-12.0
+2024,President,Age,65+,49.0,50.0,28.0,1.0,-1.0
+2026,House midterm,Age,65+,50.0,50.0,36.0,1.0,0.0
+1996,President,Gender,Men,44.0,45.0,48.0,1.0,-1.0
+2000,President,Gender,Men,43.0,54.0,48.0,1.0,-11.0
+2004,President,Gender,Men,44.0,55.0,46.0,1.0,-11.0
+2006,House midterm,Gender,Men,50.0,47.0,49.0,1.0,3.0
+2008,President,Gender,Men,49.0,48.0,47.0,1.0,1.0
+2010,House midterm,Gender,Men,41.0,55.0,48.0,1.0,-14.0
+2012,President,Gender,Men,45.0,52.0,47.0,1.0,-7.0
+2014,House midterm,Gender,Men,41.0,57.0,49.0,1.0,-16.0
+2016,President,Gender,Men,41.0,52.0,48.0,1.0,-11.0
+2018,House midterm,Gender,Men,47.0,51.0,48.0,1.0,-4.0
+2020,President,Gender,Men,45.0,53.0,48.0,1.0,-8.0
+2022,House midterm,Gender,Men,42.0,56.0,48.0,1.0,-14.0
+2024,President,Gender,Men,43.0,55.0,47.0,1.0,-12.0
+2026,House midterm,Gender,Men,50.0,48.0,45.0,1.0,2.0
+1996,President,Gender,Women,55.0,38.0,52.0,1.0,17.0
+2000,President,Gender,Women,54.0,44.0,52.0,1.0,10.0
+2004,President,Gender,Women,51.0,48.0,54.0,1.0,3.0
+2006,House midterm,Gender,Women,55.0,43.0,51.0,1.0,12.0
+2008,President,Gender,Women,56.0,43.0,53.0,1.0,13.0
+2010,House midterm,Gender,Women,48.0,49.0,52.0,1.0,-1.0
+2012,President,Gender,Women,55.0,44.0,53.0,1.0,11.0
+2014,House midterm,Gender,Women,51.0,47.0,51.0,1.0,4.0
+2016,President,Gender,Women,54.0,41.0,52.0,1.0,13.0
+2018,House midterm,Gender,Women,59.0,40.0,52.0,1.0,19.0
+2020,President,Gender,Women,57.0,42.0,52.0,1.0,15.0
+2022,House midterm,Gender,Women,53.0,45.0,52.0,1.0,8.0
+2024,President,Gender,Women,53.0,45.0,53.0,1.0,8.0
+2026,House midterm,Gender,Women,59.0,40.0,54.0,1.0,19.0
+1996,President,Income,$100K+,39.0,55.0,9.0,1.0,-16.0
+2000,President,Income,$100K+,43.0,55.0,15.0,1.0,-12.0
+2004,President,Income,$100K+,41.0,58.0,18.0,1.0,-17.0
+2006,House midterm,Income,$100K+,46.56521739130435,51.43478260869565,23.0,3.0,-4.8695652173912976
+2008,President,Income,$100K+,49.0,49.0,26.0,1.0,0.0
+2010,House midterm,Income,$100K+,40.333333333333336,58.370370370370374,27.0,2.0,-18.037037037037038
+2012,President,Income,$100K+,44.0,54.0,28.0,1.0,-10.0
+2014,House midterm,Income,$100K+,41.233333333333334,57.0,30.0,2.0,-15.766666666666666
+2016,President,Income,$100K+,47.0,47.0,34.0,1.0,0.0
+2018,House midterm,Income,$100K+,47.0,51.26470588235294,34.0,2.0,-4.264705882352942
+2020,President,Income,$100K+,42.0,54.0,26.0,1.0,-12.0
+2022,House midterm,Income,$100K+,45.333333333333336,52.94444444444444,36.0,2.0,-7.611111111111107
+2024,President,Income,$100K+,51.0,47.0,41.0,1.0,4.0
+2026,House midterm,Income,$100K+,55.170731707317074,42.829268292682926,41.0,2.0,12.341463414634148
+1996,President,Income,Under $50K,52.868852459016395,37.32786885245902,61.0,3.0,15.540983606557376
+2000,President,Income,Under $50K,52.04255319148936,44.46808510638298,47.0,3.0,7.574468085106382
+2004,President,Income,Under $50K,54.644444444444446,44.355555555555554,45.0,3.0,10.288888888888891
+2006,House midterm,Income,Under $50K,59.425,38.625,40.0,3.0,20.799999999999997
+2008,President,Income,Under $50K,59.54054054054054,38.13513513513514,37.0,3.0,21.405405405405403
+2010,House midterm,Income,Under $50K,53.833333333333336,43.166666666666664,36.0,2.0,10.666666666666671
+2012,President,Income,Under $50K,60.0,38.0,41.0,1.0,22.0
+2014,House midterm,Income,Under $50K,54.55555555555556,43.44444444444444,36.0,2.0,11.111111111111114
+2016,President,Income,Under $50K,53.0,41.0,36.0,1.0,12.0
+2018,House midterm,Income,Under $50K,59.68421052631579,37.86842105263158,38.0,2.0,21.815789473684205
+2020,President,Income,Under $50K,55.0,44.0,35.0,1.0,11.0
+2022,House midterm,Income,Under $50K,52.2,44.4,30.0,2.0,7.800000000000004
+2024,President,Income,Under $50K,48.0,50.0,27.0,1.0,-2.0
+2026,House midterm,Income,Under $50K,56.857142857142854,41.142857142857146,28.0,2.0,15.714285714285708
+1996,President,Race,Asian,44.0,48.0,1.0,1.0,-4.0
+2000,President,Race,Asian,55.0,41.0,2.0,1.0,14.0
+2004,President,Race,Asian,56.0,43.0,2.0,1.0,13.0
+2006,House midterm,Race,Asian,62.0,37.0,2.0,1.0,25.0
+2008,President,Race,Asian,62.0,35.0,2.0,1.0,27.0
+2010,House midterm,Race,Asian,58.0,40.0,2.0,1.0,18.0
+2012,President,Race,Asian,73.0,26.0,3.0,1.0,47.0
+2014,House midterm,Race,Asian,49.0,50.0,3.0,1.0,-1.0
+2016,President,Race,Asian,65.0,27.0,4.0,1.0,38.0
+2018,House midterm,Race,Asian,77.0,23.0,3.0,1.0,54.0
+2020,President,Race,Asian,61.0,34.0,4.0,1.0,27.0
+2022,House midterm,Race,Asian,58.0,40.0,2.0,1.0,18.0
+2024,President,Race,Asian,55.0,40.0,3.0,1.0,15.0
+2026,House midterm,Race,Asian,71.0,28.0,4.0,1.0,43.0
+1996,President,Race,Black,84.0,12.0,10.0,1.0,72.0
+2000,President,Race,Black,90.0,9.0,10.0,1.0,81.0
+2004,President,Race,Black,88.0,11.0,11.0,1.0,77.0
+2006,House midterm,Race,Black,89.0,10.0,10.0,1.0,79.0
+2008,President,Race,Black,95.0,4.0,13.0,1.0,91.0
+2010,House midterm,Race,Black,89.0,9.0,11.0,1.0,80.0
+2012,President,Race,Black,93.0,6.0,13.0,1.0,87.0
+2014,House midterm,Race,Black,89.0,10.0,12.0,1.0,79.0
+2016,President,Race,Black,89.0,8.0,12.0,1.0,81.0
+2018,House midterm,Race,Black,90.0,9.0,11.0,1.0,81.0
+2020,President,Race,Black,87.0,12.0,13.0,1.0,75.0
+2022,House midterm,Race,Black,86.0,13.0,11.0,1.0,73.0
+2024,President,Race,Black,86.0,13.0,11.0,1.0,73.0
+2026,House midterm,Race,Black,90.0,9.0,9.0,1.0,81.0
+1996,President,Race,Hispanic/Latino,73.0,21.0,5.0,1.0,52.0
+2000,President,Race,Hispanic/Latino,62.0,35.0,7.0,1.0,27.0
+2004,President,Race,Hispanic/Latino,53.0,44.0,8.0,1.0,9.0
+2006,House midterm,Race,Hispanic/Latino,69.0,30.0,8.0,1.0,39.0
+2008,President,Race,Hispanic/Latino,67.0,31.0,9.0,1.0,36.0
+2010,House midterm,Race,Hispanic/Latino,60.0,38.0,8.0,1.0,22.0
+2012,President,Race,Hispanic/Latino,71.0,27.0,10.0,1.0,44.0
+2014,House midterm,Race,Hispanic/Latino,62.0,36.0,8.0,1.0,26.0
+2016,President,Race,Hispanic/Latino,66.0,28.0,11.0,1.0,38.0
+2018,House midterm,Race,Hispanic/Latino,69.0,29.0,11.0,1.0,40.0
+2020,President,Race,Hispanic/Latino,65.0,32.0,13.0,1.0,33.0
+2022,House midterm,Race,Hispanic/Latino,60.0,39.0,11.0,1.0,21.0
+2024,President,Race,Hispanic/Latino,51.0,46.0,11.0,1.0,5.0
+2026,House midterm,Race,Hispanic/Latino,64.0,34.0,10.0,1.0,30.0
+1996,President,Race,White,44.0,46.0,83.0,1.0,-2.0
+2000,President,Race,White,42.0,55.0,81.0,1.0,-13.0
+2004,President,Race,White,41.0,58.0,77.0,1.0,-17.0
+2006,House midterm,Race,White,47.0,51.0,79.0,1.0,-4.0
+2008,President,Race,White,43.0,55.0,74.0,1.0,-12.0
+2010,House midterm,Race,White,37.0,60.0,77.0,1.0,-23.0
+2012,President,Race,White,39.0,59.0,72.0,1.0,-20.0
+2014,House midterm,Race,White,38.0,60.0,75.0,1.0,-22.0
+2016,President,Race,White,37.0,57.0,70.0,1.0,-20.0
+2018,House midterm,Race,White,44.0,54.0,72.0,1.0,-10.0
+2020,President,Race,White,41.0,58.0,67.0,1.0,-17.0
+2022,House midterm,Race,White,40.0,58.0,73.0,1.0,-18.0
+2024,President,Race,White,42.0,57.0,71.0,1.0,-15.0
+2026,House midterm,Race,White,49.0,49.0,73.0,1.0,0.0

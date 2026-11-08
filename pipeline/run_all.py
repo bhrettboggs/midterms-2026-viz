@@ -4,6 +4,7 @@ from datetime import datetime
 
 import pandas as pd
 
+import clean_exit_polls
 import clean_money
 import clean_polymarket
 import clean_results
@@ -31,7 +32,7 @@ def cross_check_pushbuild() -> None:
 
 
 def main() -> None:
-    for step in (clean_results, clean_money, clean_polymarket, clean_turnout):
+    for step in (clean_results, clean_money, clean_polymarket, clean_turnout, clean_exit_polls):
         print(f"\n== {step.__name__} ==")
         step.main()
     print("\n== cross-checks ==")

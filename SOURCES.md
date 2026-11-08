@@ -15,4 +15,6 @@ All files in `data/raw/` were downloaded on November 7, 2026.
 | `tonmcg/` | 2020 and 2024 county presidential results | [tonmcg/US_County_Level_Election_Results_08-24](https://github.com/tonmcg/US_County_Level_Election_Results_08-24) | MIT |
 | `census/` | 2024 Gazetteer county and county-subdivision files: codes, land area, center points | [U.S. Census Bureau](https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/) | Public domain |
 | `census/cc-est2024-agesex-all.csv` | County population estimates by age group, July 2024 | [U.S. Census Bureau](https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/asrh/) | Public domain |
+| `exit_polls/roper_how_groups_voted_1996_2024.csv` | Presidential exit polls by group, 1996–2024 | [Roper Center, How Groups Voted](https://ropercenter.cornell.edu/how-groups-voted) | Cite the Roper Center; national exit poll consortium data |
+| `exit_polls/wikipedia_house_exit_polls_2006_2026.csv` | National House exit polls by group, midterms 2006–2026 (2026 checked against ABC News) | Wikipedia election articles, compiled from network exit polls | CC BY-SA 4.0 (Wikipedia tables) |
 | `carmena/` | 2026 early-vote data (not used yet) | [carmenaresearch/election-data](https://github.com/carmenaresearch/election-data) | CC BY 4.0 |

@@ -1,6 +1,6 @@
 # Pipeline checks
 
-Generated 2026-11-07 13:30 by `pipeline/run_all.py`. Results are unofficial until states certify; re-run after certification.
+Generated 2026-11-08 14:37 by `pipeline/run_all.py`. Results are unofficial until states certify; re-run after certification.
 
 - results: one reporting level per state; dropped duplicate levels County (40), House District (320), Overseas (8), Town (7702), Township (2982)
 - results: 0 places could not be matched to a county code (0.000% of votes); see unmatched_places.csv
@@ -17,4 +17,6 @@ Generated 2026-11-07 13:30 by `pipeline/run_all.py`. Results are unofficial unti
 - polymarket: biggest one-day swings in any balance-of-power outcome: 2026-11-04 (12%), 2025-11-06 (8%), 2026-11-03 (6%), 2025-12-04 (5%), 2025-11-11 (5%) — confirm what happened on these dates before labeling them
 - turnout: 2026 national estimate 49.1% (UF v0.2, initial); 26 earlier midterms were higher
 - turnout: 51 states with both years; 34 up from 2022, 17 down
+- exit polls: Age/18-29: 14 elections; Age/65+: 14 elections; Gender/Men: 14 elections; Gender/Women: 14 elections; Income/$100K+: 14 elections; Income/Under $50K: 14 elections; Race/Asian: 14 elections; Race/Black: 14 elections; Race/Hispanic/Latino: 14 elections; Race/White: 14 elections
+- exit polls: 2006 has no 65+ bracket; its '60 and older' row is used for 65+
 - cross-check: 33 state races appear in both civicAPI and pushbuild; 3 differ by more than 2%: CA GOV (+2.7%), CO SEN (+24.1%), VT GOV (-50.0%)
