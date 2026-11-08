@@ -9,10 +9,17 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 | [Money per vote](viz/money_per_vote/money_per_vote.png) | Races decided by under 7 points drew a median $78 per vote, against $7 in races decided by 15+. |
 | [Counties as circles sized by votes](viz/vote_circles/vote_circles.png) | 95% of counties moved toward Democrats compared with the 2024 presidential vote (different offices, so candidate effects are included). |
 
+| [Congress was ~1% of the ballot](viz/ballot_length/ballot_length.png) | Of 39,430 races tracked on Nov 3, 470 were for Congress; city, town and township races were 40%. |
+| [236 years of midterm turnout](viz/turnout_history/turnout_history.png) | The 2026 early estimate (49.1%) is the second-highest midterm turnout since 1914, behind only 2018. |
+| [Ticket splitting](viz/ticket_splitting/ticket_splitting.png) | Of 23 states with both a Senate and a governor race, South Carolina and New Hampshire have different parties leading each. |
+
 ![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
 ![Where the Senate money went](viz/senate_money_flow/money_flow.png)
 ![Money per vote](viz/money_per_vote/money_per_vote.png)
 ![Counties as circles sized by votes](viz/vote_circles/vote_circles.png)
+![Congress was ~1% of the ballot](viz/ballot_length/ballot_length.png)
+![236 years of midterm turnout](viz/turnout_history/turnout_history.png)
+![Ticket splitting](viz/ticket_splitting/ticket_splitting.png)
 
 ## Repo layout
 
@@ -32,6 +39,9 @@ python viz/market_expectations/senate_seats_heatmap.py
 python viz/senate_money_flow/money_flow.py
 python viz/money_per_vote/money_per_vote.py
 python viz/vote_circles/vote_circles.py
+python viz/ballot_length/ballot_length.py
+python viz/turnout_history/turnout_history.py
+python viz/ticket_splitting/ticket_splitting.py
 ```
 
 The charts use the Inter font. If it isn't installed, matplotlib falls back to its default font.
