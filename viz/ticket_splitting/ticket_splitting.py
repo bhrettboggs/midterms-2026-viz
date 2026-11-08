@@ -41,7 +41,9 @@ def main() -> None:
     w["gap"] = w.SEN - w.GOV
     w["split"] = (w.SEN > 0) != (w.GOV > 0)
     w = w.assign(abs_gap=w.gap.abs()).sort_values("abs_gap")  # biggest gap at the top
-    dropped = sorted(set(c.state[~c.d_vs_r_race]))
+    # States with both races where one wasn't a Democrat-vs-Republican contest at the top.
+    has_both = c.groupby("state").office.nunique() == 2
+    dropped = sorted(set(c.state[~c.d_vs_r_race]) & set(has_both[has_both].index))
 
     fig = plt.figure(figsize=FIGSIZE, dpi=100)
     ax = fig.add_axes([0.20, 0.13, 0.74, 0.66])
@@ -90,7 +92,8 @@ def main() -> None:
            f"they landed. {split_names} have different parties ahead. Median gap: {big.median():.0f} points.")
     footer(fig, [
         "Unofficial, still-counting results summed from county returns.",
-        f"Not shown: {', '.join(NAMES.get(s, s) for s in dropped)} (no Democrat-vs-Republican Senate race).",
+        f"Not shown: {', '.join(NAMES.get(s, s) for s in dropped)}, where one race had an independent or third-party",
+        "candidate in its top two instead of a Democrat or Republican. Alaska: first-choice votes; both races go to ranked-choice rounds.",
         "A gap reflects candidates as much as voters: popular incumbents and weak nominees both widen it.",
     ], "civicAPI (2026 county results)")
 

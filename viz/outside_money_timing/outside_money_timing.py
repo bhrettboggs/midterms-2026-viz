@@ -1,10 +1,12 @@
 """When outside money hit 2026 Senate general-election races, week by week.
 
-Reads  data/clean/ie_clean.csv
+Reads  data/clean/ie_senate_general.csv   (Senate general-election IEs with the side each one helped)
 Writes viz/outside_money_timing/outside_money_timing.png
 
 Mirror bars: spending that helped Democrats above the line, spending that helped Republicans below.
 "Helped" = supported that party's candidate or opposed the opponent. Dated by when the ad or mail went out.
+The week ending Nov 8 holds only Nov 1-3 of spending (polls closed on the 3rd), so it is not drawn as a bar;
+its amount is given in the footer instead.
 """
 import sys
 from pathlib import Path
@@ -20,35 +22,27 @@ HERE = Path(__file__).resolve().parent
 START, ELECTION = "2026-06-01", "2026-11-03"
 
 
-def helps(party: str, sup_opp: str) -> str:
-    p = str(party).upper()
-    side = "D" if "DEMOCRAT" in p else ("R" if "REPUBLICAN" in p else "O")
-    if sup_opp == "O":
-        side = {"D": "R", "R": "D"}.get(side, "O")
-    return side
-
-
 def main() -> None:
     setup()
-    ie = pd.read_csv(CLEAN / "ie_clean.csv", low_memory=False)
-    g = ie[(ie.can_office == "S") & (ie.ele_type == "G")].copy()
-    g["date"] = pd.to_datetime(g.dissem_dt, format="%d-%b-%y", errors="coerce")
-    undated = g.date.isna().mean()
+    g = pd.read_csv(CLEAN / "ie_senate_general.csv", parse_dates=["date"])
+    full = g.exp_amo.sum()
     g = g[g.date.between("2026-01-01", ELECTION)]
-    g["side"] = [helps(p, s) for p, s in zip(g.cand_pty_aff, g.sup_opp)]
+    left_out = 1 - g.exp_amo.sum() / full  # undated, or dated outside Jan 1 - Nov 3, 2026
     last30 = g[g.date >= pd.Timestamp(ELECTION) - pd.Timedelta(days=30)].exp_amo.sum() / g.exp_amo.sum()
 
     w = (g[g.date >= START].set_index("date").groupby("side").exp_amo.resample("W-SUN").sum()
          .unstack(0).fillna(0) / 1e6)
-    for col in ("D", "R"):
-        if col not in w:
-            w[col] = 0
+    w = w.reindex(columns=["D", "R", "O"], fill_value=0)
+    partial = w.index > pd.Timestamp(ELECTION)  # the week ending Nov 8 holds only Nov 1-3
+    partial_total = w[partial][["D", "R"]].sum().sum()
+    w = w[~partial]
 
     fig = plt.figure(figsize=FIGSIZE, dpi=100)
     ax = fig.add_axes([0.10, 0.14, 0.85, 0.65])
     width = 5.2
-    ax.bar(w.index - pd.Timedelta(days=3), w.D, width=width, color=DEM, zorder=3)
-    ax.bar(w.index - pd.Timedelta(days=3), -w.R, width=width, color=REP, zorder=3)
+    xs = w.index - pd.Timedelta(days=3)
+    ax.bar(xs, w.D, width=width, color=DEM, zorder=3)
+    ax.bar(xs, -w.R, width=width, color=REP, zorder=3)
     ax.axhline(0, color=INK, lw=1, zorder=4)
     top = max(w.D.max(), w.R.max()) * 1.15
     ax.set_ylim(-top, top)
@@ -82,12 +76,13 @@ def main() -> None:
            f"Republicans (dated spending only).")
     footer(fig, [
         "Dated by when ads or mail went out. “Helping” = supporting that party's candidate or opposing the opponent.",
-        f"{undated:.0%} of spending rows have no distribution date and are left out; totals here are lower than the full $1.6B.",
+        f"Weeks end on Sunday; the ${partial_total:,.0f}M dated Nov 1–3 would be a partial week and is not drawn as a bar.",
+        f"Spending with no distribution date, or dated outside Jan 1 – Nov 3, 2026, is left out: {left_out:.1%} of ${full / 1e6:,.0f}M.",
     ], "FEC independent expenditures (junk filings and duplicate reports removed)")
 
     out = HERE / "outside_money_timing.png"
     fig.savefig(out, facecolor=SURFACE)
-    print(f"wrote {out}  last30 {last30:.3f}, undated {undated:.3f}, D {d_tot/1e6:.0f} R {r_tot/1e6:.0f}")
+    print(f"wrote {out}  last30 {last30:.3f}, left out {left_out:.3f}, D {d_tot/1e6:.0f} R {r_tot/1e6:.0f}")
 
 
 if __name__ == "__main__":

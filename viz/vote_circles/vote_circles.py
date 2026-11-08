@@ -159,6 +159,11 @@ def main() -> None:
     s = d[d.kind == "shift"]
     share = (s.shift_vs_2024 > 0).mean()
     weighted = np.average(s.shift_vs_2024, weights=s.total_votes)
+    # States drawn gray because their race wasn't Democrat-vs-Republican at the top (independent or
+    # no Democrat as the main challenger), named from the data rather than hard-coded.
+    NAMES = {"ID": "Idaho", "MT": "Montana", "NE": "Nebraska", "SD": "South Dakota", "RI": "Rhode Island",
+             "WY": "Wyoming"}
+    no_dr = ", ".join(NAMES.get(st, st) for st in sorted(m[~m.d_vs_r_race].state.unique()))
     titles(fig, f"{share:.0%} of counties moved toward Democrats",
            "compared with the 2024 presidential vote",
            f"Each circle is a county, sized by votes cast in 2026. Color is the change in margin from the 2024\n"
@@ -166,7 +171,8 @@ def main() -> None:
            f"Vote-weighted, the average county moved {weighted * 100:.0f} points.")
     footer(fig, [
         "Compares different offices: a Senate or governor race vs. the presidential race, so candidate effects are included.",
-        "Unofficial, still-counting results. Lower 48 only. No D-vs-R race: Idaho, Nebraska, South Dakota Senate.",
+        "Unofficial, still-counting results. Lower 48 only.",
+        f"Gray: the race's top two weren't a Democrat and a Republican ({no_dr}): no D-vs-R shift to show.",
         "No statewide race in Indiana, Missouri, North Dakota, Utah, Washington (hollow circles, sized by 2024 votes).",
     ], "civicAPI (2026 county results), tonmcg (2024 county results), U.S. Census Gazetteer (county centers)")
 

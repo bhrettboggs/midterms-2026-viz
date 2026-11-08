@@ -128,9 +128,11 @@ def main() -> None:
         label(ax, X[1], h_top[h], help_tot[h], h, help_tot[h], "right", box=True)
     bottom_b = top_b + o_tot + GAP * (len(HELPS) - 1)
 
-    ratio = camp_tot["Democratic campaigns"] / camp_tot["Republican campaigns"]
+    # "Raised" = receipts this cycle, so cash carried in from before 2025 is left out of the ratio.
+    raised = f[f.target.isin(CAMPAIGNS) & (f.source != "Cash on hand before 2025")].groupby("target").value.sum()
+    ratio = raised["Democratic campaigns"] / raised["Republican campaigns"]
     ax.text(X[2] - 0.01, top_b + 40,
-            f"Campaigns:\n{ratio:.1f}× more on the\nDemocratic side\n\n"
+            f"Campaigns:\n{ratio:.1f}× more raised\non the Democratic side\n\n"
             f"Outside groups:\n{money(help_tot['Helping Democrats'] * 1e6)} vs "
             f"{money(help_tot['Helping Republicans'] * 1e6)},\nnearly even",
             fontsize=15, color=INK, va="top", linespacing=1.35)

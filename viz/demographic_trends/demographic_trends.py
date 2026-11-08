@@ -49,7 +49,7 @@ def main() -> None:
             txt = f"{LABEL.get(g, g)} {fmt(last.margin)}"
             ax.text(x0, 1.02, "●", color=color, fontsize=11, transform=ax.transAxes, va="bottom")
             ax.text(x0 + 0.04, 1.02, txt, color=INK, fontsize=11, transform=ax.transAxes, va="bottom")
-            x0 += 0.06 + len(txt) * 0.021
+            x0 += 0.058 + len(txt) * 0.0205
         ax.axhline(0, color=INK_2, lw=1, zorder=2)
         ax.set_ylim(*lims)
         ax.set_xlim(1994.5, 2027.2)
@@ -72,13 +72,14 @@ def main() -> None:
 
     titles(fig, "30 years of how groups vote",
            "1996–2026, presidential and midterm",
-           "National exit polls across 14 elections. The income gap flipped: higher earners now lean Democratic.\n"
-           "In 2026 every group shown moved toward Democrats vs. 2024 (a House vote vs. a presidential one).")
+           "National election-day surveys across 14 elections. The income gap has nearly closed: $100K+ earners,\n"
+           "Republican-leaning through 2020, now lean Democratic too. In 2026 every group shown moved toward\n"
+           "Democrats vs. 2024 (a House vote vs. a presidential one).")
     footer(fig, [
-        "Exit polls are surveys with sampling error (largest for small groups like Asian voters); 2026 will be re-weighted.",
-        "Income is in nominal dollars: $100K in 1996 is worth far more than in 2026. Age 65+ in 2006 uses that poll's 60+ bracket.",
-        "President: Roper Center “How Groups Voted”. Midterms: network exit polls via Wikipedia; 2026 checked against ABC News.",
-    ], "Roper Center for Public Opinion Research; Wikipedia exit-poll tables")
+        "Surveys with sampling error (largest for small groups like Asian voters); 2026 figures will be re-weighted to final results.",
+        "2026 is The Voter Poll by SSRS (the networks' replacement for the Edison exit poll), so methods differ from earlier years.",
+        "Income is nominal dollars: $100K in 1996 is worth far more than in 2026. Age 65+ in 2006 uses that poll's 60+ bracket.",
+    ], "Roper Center (president); Edison/NEP exit polls via Wikipedia (midterms 2006–22); Voter Poll by SSRS (2026)")
 
     out = HERE / "demographic_trends.png"
     fig.savefig(out, facecolor=SURFACE)

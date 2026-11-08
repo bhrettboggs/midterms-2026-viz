@@ -79,15 +79,15 @@ def main() -> None:
         ax.text(xx, -18.2, f"{v:,}", ha="center", fontsize=11, color=INK_2)
     ax.text(8, -12.3, "Votes cast", fontsize=12, color=INK_2)
 
-    titles(fig, "Turnout didn't decide the swing",
-           "Counties moved about the same either way",
+    titles(fig, "Where turnout fell off most, counties swung",
+           f"only {gap:.1f} points more than where it held up",
            f"Each dot is a county at least {MIN_REPORTING}% counted ({len(m):,} counties, {m.state.nunique()} states), "
-           "compared with other\ncounties in its own state, since every state had different races. Where turnout fell "
-           f"off most,\ncounties moved just {gap:.1f} points more than where it held up, against a ~{avg:.0f}-point swing overall.")
+           "compared with other\ncounties in its own state, since every state had different races. The county-to-county "
+           f"pattern is\nnearly flat against a ~{avg:.0f}-point swing overall.")
     footer(fig, [
-        "Shows association, not cause. Turnout = 2026 Senate/governor votes as a share of 2024 presidential votes. Shift = change in",
-        "margin from the 2024 presidential race. Across states (not within), lower-turnout states did swing more, but those states also",
-        f"had different races and candidates. Rank correlation within states: {rho:.2f}.",
+        "Shows association, not cause, and only the county-to-county pattern: if the same kind of voter stayed home everywhere,",
+        "that would not show up here. Turnout = 2026 Senate/governor votes as a share of 2024 presidential votes. Shift = change in",
+        f"margin from the 2024 presidential race. Within-state rank correlation: {rho:.2f}. Across states, lower-turnout states swung more.",
     ], "civicAPI (2026 county results), tonmcg (2024 county results). Unofficial results")
 
     out = HERE / "turnout_vs_shift.png"

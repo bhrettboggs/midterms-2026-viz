@@ -29,8 +29,12 @@ def main() -> None:
     pres = pres[pres.TURNOUT_RATE_PRES > 0]
     est = mid[mid.is_estimate].iloc[0]
     hist = mid[~mid.is_estimate]
-    higher_since_1914 = hist[(hist.year > 1914) & (hist.turnout > est.turnout)]
-    first_since = hist[(hist.turnout > est.turnout) & (hist.year < 2018)].year.max()
+    # The most recent midterm before 2018 that beat 2026 (1914, at 50.4%). "Since" that year means
+    # after it: among midterms from 1918 on, only 2018 was higher.
+    last_higher = hist[(hist.turnout > est.turnout) & (hist.year < 2018)].year.max()
+    higher_after = hist[(hist.year > last_higher) & (hist.turnout > est.turnout)]
+    assert higher_after.year.tolist() == [2018], higher_after.year.tolist()
+    first_since = last_higher + 4
 
     fig = plt.figure(figsize=FIGSIZE, dpi=100)
     ax = fig.add_axes([0.09, 0.14, 0.86, 0.66])
@@ -45,9 +49,13 @@ def main() -> None:
     r18 = hist[hist.year == 2018].iloc[0]
     ax.annotate(f"2018: {r18.turnout:.1%}", (2018, r18.turnout * 100), xytext=(-50, 40), textcoords="offset points",
                 ha="center", fontsize=13.5, color=INK_2, arrowprops=dict(arrowstyle="-", color=INK_2, lw=1))
-    r14 = hist[hist.year == 2014].iloc[0]
-    ax.annotate(f"2014: {r14.turnout:.1%}", (2014, r14.turnout * 100), xytext=(-40, -34), textcoords="offset points",
+    low14 = hist[hist.year == 2014].iloc[0]
+    r14 = hist[hist.year == last_higher].iloc[0]
+    ax.annotate(f"2014: {low14.turnout:.1%}", (2014, low14.turnout * 100), xytext=(-40, -34), textcoords="offset points",
                 ha="center", fontsize=13.5, color=INK_2, arrowprops=dict(arrowstyle="-", color=INK_2, lw=1))
+    ax.annotate(f"{last_higher}: {r14.turnout:.1%}", (last_higher, r14.turnout * 100), xytext=(-62, 40),
+                textcoords="offset points", ha="center", fontsize=13.5, color=INK_2,
+                arrowprops=dict(arrowstyle="-", color=INK_2, lw=1))
     ax.text(1935, 70, "Presidential years", fontsize=13.5, color=MUTED)
     ax.text(1793, 63, "Midterm years", fontsize=14, color=ACCENT, weight="semibold")
 
@@ -68,9 +76,10 @@ def main() -> None:
     ax.set_ylabel("Share of eligible voters who voted", labelpad=12)
 
     titles(fig, "2026 had the second-highest midterm",
-           f"turnout since {first_since}",
+           f"turnout in more than a century",
            f"Turnout in every U.S. midterm since 1790, as a share of eligible voters. The 2026 early estimate,\n"
-           f"{est.turnout:.1%}, trails only 2018 ({r18.turnout:.1%}) in more than a century.")
+           f"{est.turnout:.1%}, beats every midterm since {first_since} except 2018 ({r18.turnout:.1%}); "
+           f"{last_higher} was the last one higher ({r14.turnout:.1%}).")
     footer(fig, [
         "2026 is an initial estimate (UF v0.2, Nov 2026) and will be revised as states finish counting.",
         "Eligible population changes over time (e.g. suffrage expansions), so very early figures cover far fewer people.",
@@ -78,8 +87,8 @@ def main() -> None:
 
     out = HERE / "turnout_history.png"
     fig.savefig(out, facecolor=SURFACE)
-    print(f"wrote {out}  2026 {est.turnout:.3f}, higher since 1914: {higher_since_1914.year.tolist()}, "
-          f"first year higher before 2018: {first_since}")
+    print(f"wrote {out}  2026 {est.turnout:.3f}; last midterm before 2018 that was higher: {last_higher}; "
+          f"higher since then: {higher_after.year.tolist()}")
 
 
 if __name__ == "__main__":

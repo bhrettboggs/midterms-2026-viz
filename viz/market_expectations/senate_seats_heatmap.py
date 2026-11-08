@@ -1,10 +1,12 @@
 """What the prediction market expected: Republican Senate seats after the 2026 midterms.
 
 Reads  data/clean/pm_senate_seats.csv  (daily probability per seat range, sums to 1)
+       data/raw/civicapi/races.csv       (race calls, for the result note)
 Writes viz/market_expectations/senate_seats_heatmap.png  (1200 x 1500, LinkedIn portrait)
 
 Top panel: monthly average probability per seat range, printed in each cell.
 Bottom panel: the daily chance the market gave the range the result landed in.
+Both stop on Election Day (Nov 3): the Nov 4 price reflects results coming in, not expectations.
 """
 from pathlib import Path
 
@@ -15,11 +17,24 @@ from matplotlib.colors import LinearSegmentedColormap
 
 HERE = Path(__file__).resolve().parent
 CLEAN = HERE.parents[1] / "data" / "clean"
+RAW = HERE.parents[1] / "data" / "raw"
 
-# Result (as of Nov 7, 2026): 44 Republican seats called, 2 races uncalled,
-# so the final count is 44-46 -> the "47 or fewer" range either way.
-RESULT_RANGE = "≤47"
-RESULT_NOTE = "Result: 44 Republican seats called, 2 races still counting → final count 44–46"
+# 53 Republican seats before the election minus the 22 Republican-held seats on the ballot
+# (20 regular + the Ohio and Florida specials) = 31 Republican seats not up in 2026.
+R_HELD_OVER = 31
+ELECTION = "2026-11-03"
+RESULT_RANGE = "≤47"  # 44-46 Republican seats either way the two uncalled races go
+
+
+def result_note() -> str:
+    """Republican seats called so far, from civicAPI's winner flags, plus the uncalled races."""
+    r = pd.read_csv(RAW / "civicapi" / "races.csv", low_memory=False)
+    r = r[(r.type == "US Senate") & ~r.election_name.str.contains("Primary|Runoff", case=False) & (r.state != "US")]
+    won = r[r.winner == True]  # noqa: E712
+    r_called = R_HELD_OVER + won.party.str.contains("Republican").sum()
+    uncalled = r.race_id.nunique() - won.race_id.nunique()
+    return (f"Result: {r_called} Republican seats called, {uncalled} races still counting → "
+            f"final count {r_called}–{r_called + uncalled}")
 
 SURFACE = "#fcfcfb"
 INK = "#0b0b0b"
@@ -44,8 +59,9 @@ ROWS = [  # (label, columns summed) - 54+ merged: each of those counts sat near 
 
 def main() -> None:
     s = pd.read_csv(CLEAN / "pm_senate_seats.csv", parse_dates=["date"], index_col="date")
-    # Drop the market's first two weeks: near-flat placeholder prices at launch.
-    s = s.loc["2026-01-01":]
+    # Drop the market's first two weeks (near-flat placeholder prices at launch) and everything
+    # after Election Day.
+    s = s.loc["2026-01-01":ELECTION]
     p_result = s[RESULT_RANGE]
     led_since = (s.idxmax(axis=1) != RESULT_RANGE)[::-1].idxmax() + pd.Timedelta(days=1)
     over_half = s.index[p_result > 0.5].min()
@@ -54,11 +70,11 @@ def main() -> None:
     grouped = pd.DataFrame({label: s[cols].sum(axis=1) for label, cols in ROWS})
     monthly = grouped.resample("MS").mean()
     col_labels = [f"{d:%b}" for d in monthly.index]
-    col_labels[-1] = f"Nov\n1–{s.index[-1].day}"
+    col_labels[-1] = f"Nov\n1–{s.index[-1].day}"  # Nov 1-3: Election Day is the last day shown
     grid = monthly.T.values  # rows x months
 
     fig = plt.figure(figsize=(12, 15), dpi=100)
-    gs = fig.add_gridspec(2, 1, height_ratios=[2.6, 1], left=0.16, right=0.86, top=0.80, bottom=0.10, hspace=0.22)
+    gs = fig.add_gridspec(2, 1, height_ratios=[2.6, 1], left=0.16, right=0.86, top=0.80, bottom=0.115, hspace=0.22)
     ax = fig.add_subplot(gs[0])
     ax2 = fig.add_subplot(gs[1])
 
@@ -111,7 +127,7 @@ def main() -> None:
     ax2.tick_params(length=0, labelsize=14)
     ax2.set_title("Daily chance the market gave “47 or fewer”", loc="left", fontsize=16, weight="semibold", pad=12)
     last = s.index[-1]
-    ax2.annotate(f"{p_result.iloc[-1]:.0%} on {last:%b %-d}", (last, p_result.iloc[-1]), xytext=(-12, 0),
+    ax2.annotate(f"{p_result.iloc[-1]:.0%} on Election Day", (last, p_result.iloc[-1]), xytext=(-12, 0),
                  textcoords="offset points", ha="right", va="center", fontsize=13.5, color=INK, weight="semibold")
     ax2.axvline(led_since, color=MUTED, lw=1)
     ax2.annotate(f"Became the market's top pick\non {led_since:%b %-d}", (led_since, 0.92),
@@ -125,7 +141,9 @@ def main() -> None:
     fig.text(0.04, 0.89, "Polymarket's average monthly probability for how many Senate seats Republicans would hold\n"
                          "after the 2026 midterms. Darker = more likely.", fontsize=16, color=INK_2, va="top",
              linespacing=1.4)
-    fig.text(0.04, 0.058, RESULT_NOTE + f". “47 or fewer” first topped 50% on {over_half:%b %-d}.",
+    fig.text(0.04, 0.076, result_note() + f". “47 or fewer” first topped 50% on {over_half:%b %-d} (Election Day).",
+             fontsize=12.5, color=INK_2)
+    fig.text(0.04, 0.058, "Prices run through Election Day only; the next day, as results came in, the range jumped to 70%.",
              fontsize=12.5, color=INK_2)
     fig.text(0.04, 0.040, "Note: “47 or fewer” is open-ended, so it covers more outcomes than the single-seat rows.",
              fontsize=12.5, color=INK_2)

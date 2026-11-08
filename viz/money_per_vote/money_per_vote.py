@@ -23,7 +23,7 @@ STATE_NAME = {"AK": "Alaska", "ME": "Maine", "IA": "Iowa", "NH": "New Hampshire"
               "KS": "Kansas", "OH": "Ohio", "MI": "Michigan", "TX": "Texas", "SC": "South Carolina",
               "MS": "Mississippi", "FL": "Florida", "GA": "Georgia", "NC": "North Carolina", "OR": "Oregon",
               "LA": "Louisiana", "IL": "Illinois", "WY": "Wyoming", "RI": "Rhode Island", "MA": "Massachusetts"}
-LABEL = ["AK", "ME", "IA", "NH", "NE", "OH", "TX", "MI", "SC", "MS", "FL", "GA", "NC", "OR", "RI", "WY", "LA"]
+LABEL = ["AK", "ME", "IA", "NH", "NE", "KS", "OH", "TX", "MI", "SC", "MS", "FL", "GA", "NC", "OR", "RI", "WY", "LA"]
 CLOSE = 0.07  # "close race" cutoff for the headline comparison
 
 
@@ -63,7 +63,7 @@ def main() -> None:
     # Labels sit just outside each bubble (marker size is an area in points^2).
     for i, row in r[r.state.isin(LABEL)].iterrows():
         gap = np.sqrt(size[i]) / 2 + 5
-        left = row.state in ("RI", "WY", "MI")
+        left = row.state in ("RI", "WY", "MI", "OH")
         ax.annotate(f"{STATE_NAME.get(row.state, row.state)}  ${row.money_per_vote:,.0f}",
                     (row.top_two_margin * 100, row.money_per_vote), xytext=(-gap if left else gap, 0),
                     textcoords="offset points", fontsize=12.5, color=INK, va="center", ha="right" if left else "left",

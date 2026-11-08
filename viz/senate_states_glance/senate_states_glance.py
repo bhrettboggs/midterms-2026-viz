@@ -1,6 +1,6 @@
 """Every 2026 Senate race at a glance: shift, turnout, age and money per vote for each side.
 
-Reads  data/clean/senate_candidates.csv, data/clean/ie_clean.csv, data/clean/turnout_states_2022_2026.csv
+Reads  data/clean/senate_candidates.csv, data/clean/ie_senate_general.csv, data/clean/turnout_states_2022_2026.csv
        data/raw/tonmcg/2024_..._Results.csv, data/raw/census/cc-est2024-agesex-all.csv, Gazetteer
 Writes viz/senate_states_glance/senate_states_glance.png  (+ senate_states_glance.csv next to it)
 
@@ -22,12 +22,6 @@ HERE = Path(__file__).resolve().parent
 RAW = HERE.parents[1] / "data" / "raw"
 
 
-def helps(party: str, sup_opp: str) -> str:
-    p = str(party).upper()
-    side = "D" if "DEMOCRAT" in p else ("R" if "REPUBLICAN" in p else "O")
-    return {"D": "R", "R": "D"}.get(side, "O") if sup_opp == "O" else side
-
-
 def build() -> pd.DataFrame:
     geo = pd.read_csv(RAW / "census" / "2024_Gaz_counties_national.txt", sep="\t", dtype={"GEOID": str})
     geo.columns = geo.columns.str.strip()
@@ -42,15 +36,16 @@ def build() -> pd.DataFrame:
     v = c.pivot_table(index=["race_id", "state"], columns="bucket", values="votes", aggfunc="sum", fill_value=0)
     v = v.reindex(columns=["D", "R", "O"], fill_value=0).reset_index()
     v["votes"] = v[["D", "R", "O"]].sum(axis=1)
-    v = v[(v.D > 0) & (v.R > 0)]
+    # Only races whose top two are a Democrat and a Republican (drops ID, MT, NE, SD).
+    top2 = (c.sort_values("votes", ascending=False).groupby("race_id").head(2)
+            .groupby("race_id").bucket.apply(lambda b: set(b) == {"D", "R"}))
+    v = v[v.race_id.isin(top2[top2].index)]
     v["m26"] = (v.D - v.R) / v.votes * 100
     camp = c.pivot_table(index="race_id", columns="bucket", values="disbursements", aggfunc="sum", fill_value=0)
     camp = camp.reindex(columns=["D", "R"], fill_value=0).add_prefix("camp_")
 
-    ie = pd.read_csv(CLEAN / "ie_clean.csv", low_memory=False)
-    g = ie[(ie.can_office == "S") & (ie.ele_type == "G")].copy()
-    g["side"] = [helps(p, s) for p, s in zip(g.cand_pty_aff, g.sup_opp)]
-    out = g.pivot_table(index="can_office_state", columns="side", values="exp_amo", aggfunc="sum", fill_value=0)
+    g = pd.read_csv(CLEAN / "ie_senate_general.csv")
+    out = g.pivot_table(index="state", columns="side", values="exp_amo", aggfunc="sum", fill_value=0)
     out = out.reindex(columns=["D", "R"], fill_value=0).add_prefix("out_")
 
     a = pd.read_csv(RAW / "census" / "cc-est2024-agesex-all.csv", encoding="latin-1")
@@ -73,7 +68,11 @@ def main() -> None:
     setup()
     d = build()
     d.to_csv(HERE / "senate_states_glance.csv", index=False)
-    rho = {k: spearmanr(d[k], d["shift"]).statistic for k in ("d_share", "turnout", "old", "d_pv", "r_pv")}
+    rho = {k: spearmanr(d[k], d["shift"]).statistic for k in ("d_share", "turnout", "old", "d_pv", "r_pv", "m24")}
+    # Redder states also swung more, so check that turnout's link isn't just that: partial rank
+    # correlation after taking the 2024 margin out of both turnout and shift.
+    resid = lambda y, x: y - np.polyval(np.polyfit(x, y, 1), x)
+    rho_partial = spearmanr(resid(d.turnout, d.m24), resid(d["shift"], d.m24)).statistic
 
     fig = plt.figure(figsize=FIGSIZE, dpi=100)
     left, top, h = 0.09, 0.755, 0.615
@@ -138,7 +137,7 @@ def main() -> None:
            "is indistinguishable from no pattern.")
     footer(fig, [
         "Money per vote = that side's campaign spending + outside spending supporting it or opposing its opponent, ÷ votes cast.",
-        "Within states, lower-turnout counties did not swing more (see the turnout chart), so the turnout link is about which states.",
+        f"Redder states (2024 margin) also swung more ({rho['m24']:+.2f}); turnout's link holds after adjusting for that ({rho_partial:+.2f}).",
         "Campaign money through mid-Oct. Turnout: UF early estimate. Age: Census July 2024. Shift and results are unofficial.",
     ], "FEC, civicAPI, tonmcg, Census Bureau, UF Election Lab")
 

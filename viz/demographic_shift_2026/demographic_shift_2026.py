@@ -47,7 +47,8 @@ def main() -> None:
         ax.annotate("", (r.m26, yi), (r.m22, yi), arrowprops=dict(arrowstyle="-|>", color=ACCENT, lw=2,
                                                                    mutation_scale=14, shrinkA=6, shrinkB=4))
         ax.scatter([r.m22], [yi], s=70, facecolor=SURFACE, edgecolor=ACCENT, lw=2, zorder=4)
-        ax.scatter([r.m24], [yi], s=60, color=MUTED, zorder=3)
+        # 2024 sits just above the row so it stays visible when it equals 2022 or 2026 (Black, Women, 65+).
+        ax.scatter([r.m24], [yi + 0.24], s=55, color=MUTED, zorder=3)
         ax.scatter([r.m26], [yi], s=80, color=ACCENT, zorder=5)
         ax.text(102, yi, f"{r.chg:+.0f}", va="center", ha="right", fontsize=14, weight="semibold", color=INK)
     ax.set_yticks(y)
@@ -68,18 +69,19 @@ def main() -> None:
     fig.text(0.21, 0.815, "○", fontsize=15, color=ACCENT, va="center", weight="bold")
     fig.text(0.23, 0.815, "2022 midterm", fontsize=13, color=INK, va="center")
     fig.text(0.37, 0.815, "●", fontsize=13, color=MUTED, va="center")
-    fig.text(0.39, 0.815, "2024 presidential", fontsize=13, color=INK, va="center")
-    fig.text(0.56, 0.815, "●", fontsize=13, color=ACCENT, va="center")
-    fig.text(0.58, 0.815, "2026 midterm", fontsize=13, color=INK, va="center")
+    fig.text(0.39, 0.815, "2024 presidential (above the line)", fontsize=13, color=INK, va="center")
+    fig.text(0.665, 0.815, "●", fontsize=13, color=ACCENT, va="center")
+    fig.text(0.685, 0.815, "2026 midterm", fontsize=13, color=INK, va="center")
 
     titles(fig, "Every group moved toward Democrats",
            f"in 2026 — {NOUN.get(top.group, top.group)} the most",
-           "Democratic-minus-Republican margin in national exit polls. Arrows compare the 2026 midterm\n"
-           "with the 2022 midterm (like for like); the gray dot is the 2024 presidential vote.")
+           "Democratic-minus-Republican margin in national election-day surveys. Arrows compare the 2026\n"
+           "midterm with the 2022 midterm (like for like); the gray dot is the 2024 presidential vote.")
     footer(fig, [
-        "Exit polls are surveys: subgroup margins carry several points of error (more for Asian voters), and 2026 will be re-weighted.",
+        "Surveys: subgroup margins carry several points of error (more for Asian voters), and 2026 will be re-weighted to final results.",
+        "2026 is The Voter Poll by SSRS, which replaced the Edison exit poll used in 2022 and 2024, so some of the change is method.",
         "Income brackets are nominal dollars. Margins are for U.S. House (midterms) and president (2024).",
-    ], "Network exit polls (2022, 2026 via Wikipedia; 2026 checked against ABC News); Roper Center (2024)")
+    ], "Edison/NEP exit poll via Wikipedia (2022); Roper Center (2024); The Voter Poll by SSRS via ABC News (2026)")
 
     out = HERE / "demographic_shift_2026.png"
     fig.savefig(out, facecolor=SURFACE)

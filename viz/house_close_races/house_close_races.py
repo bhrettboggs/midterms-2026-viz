@@ -42,7 +42,9 @@ def swarm(x: np.ndarray, d: float) -> np.ndarray:
 def main() -> None:
     setup()
     c = pd.read_csv(RAW / "civicapi" / "races.csv", low_memory=False)
-    h = c[(c.type == "House of Representatives") & ~c.election_type.str.contains("Primary|Runoff", case=False, na=False)]
+    # civicAPI also carries a national roll-up row ("United States House of Representatives", state US).
+    h = c[(c.type == "House of Representatives") & (c.state != "US")
+          & ~c.election_type.str.contains("Primary|Runoff", case=False, na=False)]
     h = h.assign(b=h.party.map(party_bucket))
     p = h.pivot_table(index="race_id", columns="b", values="votes", aggfunc="sum", fill_value=0)
     meta = h.groupby("race_id").agg(name=("election_name", "first"), pr=("percent_reporting", "max"))
