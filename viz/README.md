@@ -16,3 +16,6 @@ Each script reads only from `data/clean/` and writes a 1200 × 1500 PNG (LinkedI
 | `turnout_change/` | `turnout_change.py` | `turnout_states_2022_2026.csv` |
 | `house_close_races/` | `house_close_races.py` | raw `civicapi/races.csv` |
 | `turnout_vs_shift/` | `turnout_vs_shift.py` | `county_map_2026.csv` |
+| `age_turnout_shift/` | `age_turnout_shift.py` | `county_map_2026.csv` + raw Census age estimates |
+| `senate_states_glance/` | `senate_states_glance.py` | senate, IE and turnout tables + raw 2024 results and Census age |
+| `money_vs_odds/` | `money_vs_odds.py` | raw Polymarket daily + `ie_clean.csv` |

@@ -16,6 +16,9 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 | [Turnout change by state](viz/turnout_change/turnout_change.png) | Compared with 2022, turnout rose in 34 states and fell in 17 (early estimates). |
 | [Close House races](viz/house_close_races/house_close_races.png) | 25 U.S. House races are within 2 points, 12 within 1, with counting still going. |
 | [Did turnout decide the swing?](viz/turnout_vs_shift/turnout_vs_shift.png) | Within each state, counties where turnout fell off most moved only ~1.3 points more than counties where it held up, against a ~15-point swing. |
+| [Age, turnout and shift](viz/age_turnout_shift/age_turnout_shift.png) | Within states, the oldest fifth of counties turned out 5 points above average but moved 3 points less toward Democrats; the youngest fifth did the reverse. |
+| [Every Senate race at a glance](viz/senate_states_glance/senate_states_glance.png) | Which side outspent didn't track the swing (rank correlation +0.08); lower-turnout states swung more (−0.59). |
+| [Odds vs money](viz/money_vs_odds/money_vs_odds.png) | Polymarket's Democratic Senate odds stayed above 50% from Aug 31; Democratic-side outside money first out-spent the Republican side 35 days later. |
 
 ![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
 ![Where the Senate money went](viz/senate_money_flow/money_flow.png)
@@ -28,6 +31,9 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 ![Turnout change by state](viz/turnout_change/turnout_change.png)
 ![Close House races](viz/house_close_races/house_close_races.png)
 ![Did turnout decide the swing?](viz/turnout_vs_shift/turnout_vs_shift.png)
+![Age, turnout and shift](viz/age_turnout_shift/age_turnout_shift.png)
+![Every Senate race at a glance](viz/senate_states_glance/senate_states_glance.png)
+![Odds vs money](viz/money_vs_odds/money_vs_odds.png)
 
 ## Repo layout
 
@@ -54,6 +60,9 @@ python viz/outside_money_timing/outside_money_timing.py
 python viz/turnout_change/turnout_change.py
 python viz/house_close_races/house_close_races.py
 python viz/turnout_vs_shift/turnout_vs_shift.py
+python viz/age_turnout_shift/age_turnout_shift.py
+python viz/senate_states_glance/senate_states_glance.py
+python viz/money_vs_odds/money_vs_odds.py
 ```
 
 The charts use the Inter font. If it isn't installed, matplotlib falls back to its default font.
