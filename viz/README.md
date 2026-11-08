@@ -12,3 +12,6 @@ Each script reads only from `data/clean/` and writes a 1200 × 1500 PNG (LinkedI
 | `ballot_length/` | `ballot_length.py` | raw `civicapi/races.csv` |
 | `turnout_history/` | `turnout_history.py` | `turnout_national_midterms.csv` (+ raw UF presidential series) |
 | `ticket_splitting/` | `ticket_splitting.py` | `county_results_2026.csv` |
+| `outside_money_timing/` | `outside_money_timing.py` | `ie_clean.csv` |
+| `turnout_change/` | `turnout_change.py` | `turnout_states_2022_2026.csv` |
+| `house_close_races/` | `house_close_races.py` | raw `civicapi/races.csv` |

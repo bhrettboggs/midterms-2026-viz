@@ -12,6 +12,9 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 | [Congress was ~1% of the ballot](viz/ballot_length/ballot_length.png) | Of 39,430 races tracked on Nov 3, 470 were for Congress; city, town and township races were 40%. |
 | [236 years of midterm turnout](viz/turnout_history/turnout_history.png) | The 2026 early estimate (49.1%) is the second-highest midterm turnout since 1914, behind only 2018. |
 | [Ticket splitting](viz/ticket_splitting/ticket_splitting.png) | Of 23 states with both a Senate and a governor race, South Carolina and New Hampshire have different parties leading each. |
+| [When outside money arrived](viz/outside_money_timing/outside_money_timing.png) | 60% of dated outside spending in Senate races landed in the final 30 days, on both sides. |
+| [Turnout change by state](viz/turnout_change/turnout_change.png) | Compared with 2022, turnout rose in 34 states and fell in 17 (early estimates). |
+| [Close House races](viz/house_close_races/house_close_races.png) | 25 U.S. House races are within 2 points, 12 within 1, with counting still going. |
 
 ![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
 ![Where the Senate money went](viz/senate_money_flow/money_flow.png)
@@ -20,6 +23,9 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 ![Congress was ~1% of the ballot](viz/ballot_length/ballot_length.png)
 ![236 years of midterm turnout](viz/turnout_history/turnout_history.png)
 ![Ticket splitting](viz/ticket_splitting/ticket_splitting.png)
+![When outside money arrived](viz/outside_money_timing/outside_money_timing.png)
+![Turnout change by state](viz/turnout_change/turnout_change.png)
+![Close House races](viz/house_close_races/house_close_races.png)
 
 ## Repo layout
 
@@ -42,6 +48,9 @@ python viz/vote_circles/vote_circles.py
 python viz/ballot_length/ballot_length.py
 python viz/turnout_history/turnout_history.py
 python viz/ticket_splitting/ticket_splitting.py
+python viz/outside_money_timing/outside_money_timing.py
+python viz/turnout_change/turnout_change.py
+python viz/house_close_races/house_close_races.py
 ```
 
 The charts use the Inter font. If it isn't installed, matplotlib falls back to its default font.
