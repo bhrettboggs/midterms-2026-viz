@@ -15,3 +15,4 @@ Each script reads only from `data/clean/` and writes a 1200 × 1500 PNG (LinkedI
 | `outside_money_timing/` | `outside_money_timing.py` | `ie_clean.csv` |
 | `turnout_change/` | `turnout_change.py` | `turnout_states_2022_2026.csv` |
 | `house_close_races/` | `house_close_races.py` | raw `civicapi/races.csv` |
+| `turnout_vs_shift/` | `turnout_vs_shift.py` | `county_map_2026.csv` |

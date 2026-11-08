@@ -15,6 +15,7 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 | [When outside money arrived](viz/outside_money_timing/outside_money_timing.png) | 60% of dated outside spending in Senate races landed in the final 30 days, on both sides. |
 | [Turnout change by state](viz/turnout_change/turnout_change.png) | Compared with 2022, turnout rose in 34 states and fell in 17 (early estimates). |
 | [Close House races](viz/house_close_races/house_close_races.png) | 25 U.S. House races are within 2 points, 12 within 1, with counting still going. |
+| [Did turnout decide the swing?](viz/turnout_vs_shift/turnout_vs_shift.png) | Within each state, counties where turnout fell off most moved only ~1.3 points more than counties where it held up, against a ~15-point swing. |
 
 ![What the market expected](viz/market_expectations/senate_seats_heatmap.png)
 ![Where the Senate money went](viz/senate_money_flow/money_flow.png)
@@ -26,6 +27,7 @@ Unusual views of the November 3, 2026 U.S. midterm elections, built from public 
 ![When outside money arrived](viz/outside_money_timing/outside_money_timing.png)
 ![Turnout change by state](viz/turnout_change/turnout_change.png)
 ![Close House races](viz/house_close_races/house_close_races.png)
+![Did turnout decide the swing?](viz/turnout_vs_shift/turnout_vs_shift.png)
 
 ## Repo layout
 
@@ -51,6 +53,7 @@ python viz/ticket_splitting/ticket_splitting.py
 python viz/outside_money_timing/outside_money_timing.py
 python viz/turnout_change/turnout_change.py
 python viz/house_close_races/house_close_races.py
+python viz/turnout_vs_shift/turnout_vs_shift.py
 ```
 
 The charts use the Inter font. If it isn't installed, matplotlib falls back to its default font.
