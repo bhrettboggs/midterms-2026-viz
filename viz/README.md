@@ -21,3 +21,8 @@ Each script reads from `data/clean/` (a few also read raw files, listed below) a
 | `money_vs_odds/` | `money_vs_odds.py` | raw Polymarket daily + `ie_senate_general.csv` |
 | `demographic_trends/` | `demographic_trends.py` | `exit_poll_groups.csv` |
 | `demographic_shift_2026/` | `demographic_shift_2026.py` | `exit_poll_groups.csv` |
+| `gov_swing_2022_2026/` | `gov_swing_2022_2026.py` | `county_shift_2022_2026.csv` |
+| `two_yardsticks/` | `two_yardsticks.py` | `county_shift_2022_2026.csv` + raw 2024 county presidential results |
+| `density_swing/` | `density_swing.py` | `county_shift_2022_2026.csv` + raw Census population estimates |
+| `split_counties/` | `split_counties.py` | `county_results_2026.csv` |
+| `house_competition/` | `house_competition.py` | raw `civicapi/races.csv` |
