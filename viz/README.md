@@ -21,3 +21,4 @@ Each script reads only from `data/clean/` and writes a 1200 × 1500 PNG (LinkedI
 | `money_vs_odds/` | `money_vs_odds.py` | raw Polymarket daily + `ie_clean.csv` |
 | `demographic_trends/` | `demographic_trends.py` | `exit_poll_groups.csv` |
 | `demographic_shift_2026/` | `demographic_shift_2026.py` | `exit_poll_groups.csv` |
+| `linkedin_story/` | `story.py` | county, turnout, Senate and exit-poll tables → 8 pages + `midterms_2026_story.pdf` (LinkedIn carousel) |
